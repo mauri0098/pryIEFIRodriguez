@@ -33,7 +33,7 @@
             // 
             // cmdIniciarSesion
             // 
-            this.cmdIniciarSesion.Location = new System.Drawing.Point(131, 197);
+            this.cmdIniciarSesion.Location = new System.Drawing.Point(125, 191);
             this.cmdIniciarSesion.Name = "cmdIniciarSesion";
             this.cmdIniciarSesion.Size = new System.Drawing.Size(183, 54);
             this.cmdIniciarSesion.TabIndex = 0;
