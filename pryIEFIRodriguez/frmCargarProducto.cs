@@ -37,7 +37,7 @@ namespace pryIEFIRodriguez
             {
                 if (txtNombre.Text !="")
                 {
-                    if (nudID.Value >9999)
+                    if (nudID.Value >0)
                     {
                         varID = nudID.ToString();
                     }
