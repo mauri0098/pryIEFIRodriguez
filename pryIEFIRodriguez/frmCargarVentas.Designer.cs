@@ -198,7 +198,7 @@
             this.dtgvID,
             this.dtgvCantidad,
             this.dtgvFecha});
-            this.dtgvConsultarVentas.Location = new System.Drawing.Point(3, 6);
+            this.dtgvConsultarVentas.Location = new System.Drawing.Point(0, 6);
             this.dtgvConsultarVentas.Name = "dtgvConsultarVentas";
             this.dtgvConsultarVentas.Size = new System.Drawing.Size(457, 215);
             this.dtgvConsultarVentas.TabIndex = 1;

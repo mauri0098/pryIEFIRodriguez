@@ -33,7 +33,7 @@
             // 
             // cmdInicio
             // 
-            this.cmdInicio.Location = new System.Drawing.Point(277, 221);
+            this.cmdInicio.Location = new System.Drawing.Point(274, 221);
             this.cmdInicio.Name = "cmdInicio";
             this.cmdInicio.Size = new System.Drawing.Size(165, 44);
             this.cmdInicio.TabIndex = 0;
