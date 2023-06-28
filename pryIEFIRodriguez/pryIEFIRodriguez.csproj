@@ -75,6 +75,9 @@
     <EmbeddedResource Include="frmCargarProducto.resx">
       <DependentUpon>frmCargarProducto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCargarVentas.resx">
+      <DependentUpon>frmCargarVentas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </EmbeddedResource>

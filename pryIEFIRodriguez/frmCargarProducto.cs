@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryIEFIRodriguez
 {
-    public partial class frmProducto : Form
+    public partial class frmCargarProducto : Form
     {
-        public frmProducto()
+        public frmCargarProducto()
         {
             InitializeComponent();
         }

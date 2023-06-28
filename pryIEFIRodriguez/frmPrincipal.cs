@@ -19,7 +19,7 @@ namespace pryIEFIRodriguez
 
         private void cmdProducto_Click(object sender, EventArgs e)
         {
-            frmProducto frmCargarProducto = new frmProducto();
+            frmCargarProducto frmCargarProducto = new frmCargarProducto();
             this.Hide();
             frmCargarProducto.ShowDialog();
         }

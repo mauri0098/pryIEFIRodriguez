@@ -1,6 +1,6 @@
 ﻿namespace pryIEFIRodriguez
 {
-    partial class frmProducto
+    partial class frmCargarProducto
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabCargarProducto = new System.Windows.Forms.TabControl();
+            this.tabProducto = new System.Windows.Forms.TabControl();
             this.tabRegistrar = new System.Windows.Forms.TabPage();
             this.tabConsultar = new System.Windows.Forms.TabPage();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -44,7 +44,7 @@
             this.dtgvNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabCargarProducto.SuspendLayout();
+            this.tabProducto.SuspendLayout();
             this.tabRegistrar.SuspendLayout();
             this.tabConsultar.SuspendLayout();
             this.mrcProducto.SuspendLayout();
@@ -52,15 +52,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarProducto)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabCargarProducto
+            // tabProducto
             // 
-            this.tabCargarProducto.Controls.Add(this.tabRegistrar);
-            this.tabCargarProducto.Controls.Add(this.tabConsultar);
-            this.tabCargarProducto.Location = new System.Drawing.Point(0, 0);
-            this.tabCargarProducto.Name = "tabCargarProducto";
-            this.tabCargarProducto.SelectedIndex = 0;
-            this.tabCargarProducto.Size = new System.Drawing.Size(366, 298);
-            this.tabCargarProducto.TabIndex = 0;
+            this.tabProducto.Controls.Add(this.tabRegistrar);
+            this.tabProducto.Controls.Add(this.tabConsultar);
+            this.tabProducto.Location = new System.Drawing.Point(0, 0);
+            this.tabProducto.Name = "tabProducto";
+            this.tabProducto.SelectedIndex = 0;
+            this.tabProducto.Size = new System.Drawing.Size(366, 298);
+            this.tabProducto.TabIndex = 0;
             // 
             // tabRegistrar
             // 
@@ -196,15 +196,15 @@
             this.dtgvFecha.HeaderText = "Fecha";
             this.dtgvFecha.Name = "dtgvFecha";
             // 
-            // frmProducto
+            // frmCargarProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(372, 312);
-            this.Controls.Add(this.tabCargarProducto);
-            this.Name = "frmProducto";
+            this.Controls.Add(this.tabProducto);
+            this.Name = "frmCargarProducto";
             this.Text = "Producto";
-            this.tabCargarProducto.ResumeLayout(false);
+            this.tabProducto.ResumeLayout(false);
             this.tabRegistrar.ResumeLayout(false);
             this.tabConsultar.ResumeLayout(false);
             this.mrcProducto.ResumeLayout(false);
@@ -217,7 +217,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabCargarProducto;
+        private System.Windows.Forms.TabControl tabProducto;
         private System.Windows.Forms.TabPage tabRegistrar;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TabPage tabConsultar;
