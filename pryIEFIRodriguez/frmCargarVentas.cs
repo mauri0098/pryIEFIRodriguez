@@ -48,10 +48,6 @@ namespace pryIEFIRodriguez
                     MatrizVentas[n,2] = nudCantidad.Text;
                     MatrizVentas[n,3] = dptFecha.Text;
 
-
-
-
-
                     txtProducto.Text = "";
                     nudID.Text = "";
                     nudCantidad.Text = "";

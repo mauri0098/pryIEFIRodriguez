@@ -30,7 +30,6 @@
         {
             this.tabVentas = new System.Windows.Forms.TabControl();
             this.tabRegistrar = new System.Windows.Forms.TabPage();
-            this.tabConsultar = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.nudCantidad = new System.Windows.Forms.NumericUpDown();
             this.lblCantidad = new System.Windows.Forms.Label();
@@ -42,6 +41,7 @@
             this.lblID = new System.Windows.Forms.Label();
             this.lblProducto = new System.Windows.Forms.Label();
             this.txtProducto = new System.Windows.Forms.TextBox();
+            this.tabConsultar = new System.Windows.Forms.TabPage();
             this.dtgvConsultarVentas = new System.Windows.Forms.DataGridView();
             this.dtgvProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvID = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,10 +49,10 @@
             this.dtgvFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabVentas.SuspendLayout();
             this.tabRegistrar.SuspendLayout();
-            this.tabConsultar.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudID)).BeginInit();
+            this.tabConsultar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarVentas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,17 +77,6 @@
             this.tabRegistrar.Text = "Registrar";
             this.tabRegistrar.UseVisualStyleBackColor = true;
             // 
-            // tabConsultar
-            // 
-            this.tabConsultar.Controls.Add(this.dtgvConsultarVentas);
-            this.tabConsultar.Location = new System.Drawing.Point(4, 22);
-            this.tabConsultar.Name = "tabConsultar";
-            this.tabConsultar.Padding = new System.Windows.Forms.Padding(3);
-            this.tabConsultar.Size = new System.Drawing.Size(468, 328);
-            this.tabConsultar.TabIndex = 1;
-            this.tabConsultar.Text = "Consultar";
-            this.tabConsultar.UseVisualStyleBackColor = true;
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.nudCantidad);
@@ -100,7 +89,7 @@
             this.groupBox1.Controls.Add(this.lblID);
             this.groupBox1.Controls.Add(this.lblProducto);
             this.groupBox1.Controls.Add(this.txtProducto);
-            this.groupBox1.Location = new System.Drawing.Point(95, 20);
+            this.groupBox1.Location = new System.Drawing.Point(93, 20);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(247, 291);
             this.groupBox1.TabIndex = 3;
@@ -190,6 +179,17 @@
             this.txtProducto.Size = new System.Drawing.Size(89, 20);
             this.txtProducto.TabIndex = 0;
             // 
+            // tabConsultar
+            // 
+            this.tabConsultar.Controls.Add(this.dtgvConsultarVentas);
+            this.tabConsultar.Location = new System.Drawing.Point(4, 22);
+            this.tabConsultar.Name = "tabConsultar";
+            this.tabConsultar.Padding = new System.Windows.Forms.Padding(3);
+            this.tabConsultar.Size = new System.Drawing.Size(468, 328);
+            this.tabConsultar.TabIndex = 1;
+            this.tabConsultar.Text = "Consultar";
+            this.tabConsultar.UseVisualStyleBackColor = true;
+            // 
             // dtgvConsultarVentas
             // 
             this.dtgvConsultarVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -233,11 +233,11 @@
             this.Text = "Ventas";
             this.tabVentas.ResumeLayout(false);
             this.tabRegistrar.ResumeLayout(false);
-            this.tabConsultar.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudID)).EndInit();
+            this.tabConsultar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarVentas)).EndInit();
             this.ResumeLayout(false);
 
