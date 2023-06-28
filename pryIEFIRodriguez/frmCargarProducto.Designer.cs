@@ -36,14 +36,20 @@
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblID = new System.Windows.Forms.Label();
             this.nudID = new System.Windows.Forms.NumericUpDown();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dptFecha = new System.Windows.Forms.DateTimePicker();
             this.lblFecha = new System.Windows.Forms.Label();
             this.cmdRegistrar = new System.Windows.Forms.Button();
             this.cmdCancelar = new System.Windows.Forms.Button();
+            this.dtgvConsultarProducto = new System.Windows.Forms.DataGridView();
+            this.dtgvNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dtgvID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dtgvFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabCargarProducto.SuspendLayout();
             this.tabRegistrar.SuspendLayout();
+            this.tabConsultar.SuspendLayout();
             this.mrcProducto.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudID)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarProducto)).BeginInit();
             this.SuspendLayout();
             // 
             // tabCargarProducto
@@ -53,7 +59,7 @@
             this.tabCargarProducto.Location = new System.Drawing.Point(0, 0);
             this.tabCargarProducto.Name = "tabCargarProducto";
             this.tabCargarProducto.SelectedIndex = 0;
-            this.tabCargarProducto.Size = new System.Drawing.Size(434, 325);
+            this.tabCargarProducto.Size = new System.Drawing.Size(429, 316);
             this.tabCargarProducto.TabIndex = 0;
             // 
             // tabRegistrar
@@ -62,17 +68,18 @@
             this.tabRegistrar.Location = new System.Drawing.Point(4, 22);
             this.tabRegistrar.Name = "tabRegistrar";
             this.tabRegistrar.Padding = new System.Windows.Forms.Padding(3);
-            this.tabRegistrar.Size = new System.Drawing.Size(426, 299);
+            this.tabRegistrar.Size = new System.Drawing.Size(421, 290);
             this.tabRegistrar.TabIndex = 0;
             this.tabRegistrar.Text = "Registrar";
             this.tabRegistrar.UseVisualStyleBackColor = true;
             // 
             // tabConsultar
             // 
+            this.tabConsultar.Controls.Add(this.dtgvConsultarProducto);
             this.tabConsultar.Location = new System.Drawing.Point(4, 22);
             this.tabConsultar.Name = "tabConsultar";
             this.tabConsultar.Padding = new System.Windows.Forms.Padding(3);
-            this.tabConsultar.Size = new System.Drawing.Size(486, 327);
+            this.tabConsultar.Size = new System.Drawing.Size(421, 290);
             this.tabConsultar.TabIndex = 1;
             this.tabConsultar.Text = "Consultar";
             this.tabConsultar.UseVisualStyleBackColor = true;
@@ -90,7 +97,7 @@
             this.mrcProducto.Controls.Add(this.cmdCancelar);
             this.mrcProducto.Controls.Add(this.cmdRegistrar);
             this.mrcProducto.Controls.Add(this.lblFecha);
-            this.mrcProducto.Controls.Add(this.dateTimePicker1);
+            this.mrcProducto.Controls.Add(this.dptFecha);
             this.mrcProducto.Controls.Add(this.nudID);
             this.mrcProducto.Controls.Add(this.lblID);
             this.mrcProducto.Controls.Add(this.lblNombre);
@@ -127,12 +134,12 @@
             this.nudID.Size = new System.Drawing.Size(89, 20);
             this.nudID.TabIndex = 2;
             // 
-            // dateTimePicker1
+            // dptFecha
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(25, 150);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(194, 20);
-            this.dateTimePicker1.TabIndex = 2;
+            this.dptFecha.Location = new System.Drawing.Point(25, 150);
+            this.dptFecha.Name = "dptFecha";
+            this.dptFecha.Size = new System.Drawing.Size(194, 20);
+            this.dptFecha.TabIndex = 2;
             // 
             // lblFecha
             // 
@@ -151,6 +158,7 @@
             this.cmdRegistrar.TabIndex = 1;
             this.cmdRegistrar.Text = "Registrar";
             this.cmdRegistrar.UseVisualStyleBackColor = true;
+            this.cmdRegistrar.Click += new System.EventHandler(this.cmdRegistrar_Click);
             // 
             // cmdCancelar
             // 
@@ -160,6 +168,33 @@
             this.cmdCancelar.TabIndex = 4;
             this.cmdCancelar.Text = "Cancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
+            // 
+            // dtgvConsultarProducto
+            // 
+            this.dtgvConsultarProducto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvConsultarProducto.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dtgvNombre,
+            this.dtgvID,
+            this.dtgvFecha});
+            this.dtgvConsultarProducto.Location = new System.Drawing.Point(3, 3);
+            this.dtgvConsultarProducto.Name = "dtgvConsultarProducto";
+            this.dtgvConsultarProducto.Size = new System.Drawing.Size(362, 203);
+            this.dtgvConsultarProducto.TabIndex = 0;
+            // 
+            // dtgvNombre
+            // 
+            this.dtgvNombre.HeaderText = "Nombre";
+            this.dtgvNombre.Name = "dtgvNombre";
+            // 
+            // dtgvID
+            // 
+            this.dtgvID.HeaderText = "ID";
+            this.dtgvID.Name = "dtgvID";
+            // 
+            // dtgvFecha
+            // 
+            this.dtgvFecha.HeaderText = "Fecha";
+            this.dtgvFecha.Name = "dtgvFecha";
             // 
             // frmProducto
             // 
@@ -171,9 +206,11 @@
             this.Text = "Producto";
             this.tabCargarProducto.ResumeLayout(false);
             this.tabRegistrar.ResumeLayout(false);
+            this.tabConsultar.ResumeLayout(false);
             this.mrcProducto.ResumeLayout(false);
             this.mrcProducto.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudID)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarProducto)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -188,9 +225,13 @@
         private System.Windows.Forms.Button cmdCancelar;
         private System.Windows.Forms.Button cmdRegistrar;
         private System.Windows.Forms.Label lblFecha;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dptFecha;
         private System.Windows.Forms.NumericUpDown nudID;
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.DataGridView dtgvConsultarProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dtgvNombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dtgvID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dtgvFecha;
     }
 }
