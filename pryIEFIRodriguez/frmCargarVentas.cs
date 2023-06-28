@@ -46,7 +46,7 @@ namespace pryIEFIRodriguez
                 }
                 else
                 {
-                    MessageBox.Show("Falta Completar El Nombre", "Cargar Producto", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Falta Completar El Producto", "Cargar Producto", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     txtProducto.Focus();
                 }
             }
