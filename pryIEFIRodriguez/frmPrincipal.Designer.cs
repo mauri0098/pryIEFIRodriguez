@@ -34,7 +34,7 @@
             // 
             // cmdVentas
             // 
-            this.cmdVentas.Location = new System.Drawing.Point(88, 133);
+            this.cmdVentas.Location = new System.Drawing.Point(92, 133);
             this.cmdVentas.Name = "cmdVentas";
             this.cmdVentas.Size = new System.Drawing.Size(111, 59);
             this.cmdVentas.TabIndex = 0;
