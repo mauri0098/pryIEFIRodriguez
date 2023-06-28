@@ -17,17 +17,11 @@ namespace pryIEFIRodriguez
             InitializeComponent();
         }
 
-        private void cmdIniciarSesion_Click(object sender, EventArgs e)
+        private void cmdProducto_Click(object sender, EventArgs e)
         {
-            frmCargarProducto frmCargarProducto = new frmCargarProducto();
+            frmProducto frmCargarProducto = new frmProducto();
             this.Hide();
             frmCargarProducto.ShowDialog();
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

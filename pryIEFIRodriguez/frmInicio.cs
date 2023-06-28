@@ -10,16 +10,18 @@ using System.Windows.Forms;
 
 namespace pryIEFIRodriguez
 {
-    public partial class frmProducto : Form
+    public partial class frmInicio : Form
     {
-        public frmProducto()
+        public frmInicio()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void cmdInicio_Click(object sender, EventArgs e)
         {
-
+            frmPrincipal frmPrincipal = new frmPrincipal();
+            this.Hide();
+            frmPrincipal.ShowDialog();
         }
     }
 }

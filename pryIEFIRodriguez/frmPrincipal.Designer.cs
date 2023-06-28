@@ -28,25 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cmdIniciarSesion = new System.Windows.Forms.Button();
+            this.cmdVentas = new System.Windows.Forms.Button();
+            this.cmdProducto = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // cmdIniciarSesion
+            // cmdVentas
             // 
-            this.cmdIniciarSesion.Location = new System.Drawing.Point(125, 191);
-            this.cmdIniciarSesion.Name = "cmdIniciarSesion";
-            this.cmdIniciarSesion.Size = new System.Drawing.Size(183, 54);
-            this.cmdIniciarSesion.TabIndex = 0;
-            this.cmdIniciarSesion.Text = "Iniciar Sesio";
-            this.cmdIniciarSesion.UseVisualStyleBackColor = true;
-            this.cmdIniciarSesion.Click += new System.EventHandler(this.cmdIniciarSesion_Click);
+            this.cmdVentas.Location = new System.Drawing.Point(90, 133);
+            this.cmdVentas.Name = "cmdVentas";
+            this.cmdVentas.Size = new System.Drawing.Size(111, 59);
+            this.cmdVentas.TabIndex = 0;
+            this.cmdVentas.Text = "Ventas";
+            this.cmdVentas.UseVisualStyleBackColor = true;
+            // 
+            // cmdProducto
+            // 
+            this.cmdProducto.Location = new System.Drawing.Point(230, 133);
+            this.cmdProducto.Name = "cmdProducto";
+            this.cmdProducto.Size = new System.Drawing.Size(100, 59);
+            this.cmdProducto.TabIndex = 1;
+            this.cmdProducto.Text = "Producto";
+            this.cmdProducto.UseVisualStyleBackColor = true;
+            this.cmdProducto.Click += new System.EventHandler(this.cmdProducto_Click);
             // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 388);
-            this.Controls.Add(this.cmdIniciarSesion);
+            this.ClientSize = new System.Drawing.Size(513, 359);
+            this.Controls.Add(this.cmdProducto);
+            this.Controls.Add(this.cmdVentas);
             this.Name = "frmPrincipal";
             this.Text = "frmPrincipal";
             this.ResumeLayout(false);
@@ -55,6 +66,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button cmdIniciarSesion;
+        private System.Windows.Forms.Button cmdVentas;
+        private System.Windows.Forms.Button cmdProducto;
     }
 }
