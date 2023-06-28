@@ -14,7 +14,8 @@ namespace pryIEFIRodriguez
     public partial class frmCargarProducto : Form
     {
         string varID;
-        
+        string[,] MatrizProductos
+            = new string[3, 3];
         public frmCargarProducto()
         {
             InitializeComponent();
@@ -55,10 +56,14 @@ namespace pryIEFIRodriguez
                     dtgvConsultarProducto.Rows[n].Cells[0].Value = txtNombre.Text;
                     dtgvConsultarProducto.Rows[n].Cells[1].Value = nudID.Text;
                     dtgvConsultarProducto.Rows[n].Cells[2].Value = dptFecha.Text;
-
+                    
+                    MatrizProductos[n, 0] = txtNombre.Text;
+                    MatrizProductos[n, 1] = nudID.Text;
+                    MatrizProductos[n, 2] = dptFecha.Text;
+                    
                     txtNombre.Text = "";
                     nudID.Text = "";
-                    
+
 
                 }
                 else
