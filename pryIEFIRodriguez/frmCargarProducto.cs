@@ -12,6 +12,8 @@ namespace pryIEFIRodriguez
 {
     public partial class frmCargarProducto : Form
     {
+        string varID;
+        
         public frmCargarProducto()
         {
             InitializeComponent();
@@ -33,6 +35,16 @@ namespace pryIEFIRodriguez
             {
                 if (txtNombre.Text !="")
                 {
+                    if (nudID.Value >9999)
+                    {
+                        varID = nudID.ToString();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Falta Completar el ID", "Cargar ID", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        txtNombre.Focus();
+                    }base.Close();
+                    
                     MessageBox.Show("vamos a Consultar");
 
                     
