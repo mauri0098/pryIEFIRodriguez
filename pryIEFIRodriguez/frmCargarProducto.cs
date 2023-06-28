@@ -33,7 +33,7 @@ namespace pryIEFIRodriguez
             {
                 if (txtNombre.Text !="")
                 {
-                    MessageBox.Show("vamos a grabar");
+                    MessageBox.Show("vamos a Consultar");
 
                     
                     
@@ -43,24 +43,20 @@ namespace pryIEFIRodriguez
                     dtgvConsultarProducto.Rows[n].Cells[1].Value = nudID.Text;
                     dtgvConsultarProducto.Rows[n].Cells[2].Value = dptFecha.Text;
 
-
-
-
-
-
-
-
+                    txtNombre.Text = "";
+                    nudID.Text = "";
+                    
 
                 }
                 else
                 {
-                    MessageBox.Show("falta completar el Nombre", "Cargar Nombre", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Falta Completar El Nombre", "Cargar Nombre", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     txtNombre.Focus();
                 }
             }
             else
             {
-                MessageBox.Show("seleccionar una fecha actual o posterior a la de hoy", "cargar tarea", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Seleccionar Una Fecha Actual o Posterior a la de Hoy", "cargar tarea", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 dptFecha.Value = DateTime.Today;
                 dptFecha.Focus();
             }

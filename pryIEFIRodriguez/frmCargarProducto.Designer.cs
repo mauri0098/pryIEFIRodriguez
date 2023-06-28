@@ -59,7 +59,7 @@
             this.tabCargarProducto.Location = new System.Drawing.Point(0, 0);
             this.tabCargarProducto.Name = "tabCargarProducto";
             this.tabCargarProducto.SelectedIndex = 0;
-            this.tabCargarProducto.Size = new System.Drawing.Size(429, 316);
+            this.tabCargarProducto.Size = new System.Drawing.Size(366, 298);
             this.tabCargarProducto.TabIndex = 0;
             // 
             // tabRegistrar
@@ -68,7 +68,7 @@
             this.tabRegistrar.Location = new System.Drawing.Point(4, 22);
             this.tabRegistrar.Name = "tabRegistrar";
             this.tabRegistrar.Padding = new System.Windows.Forms.Padding(3);
-            this.tabRegistrar.Size = new System.Drawing.Size(421, 290);
+            this.tabRegistrar.Size = new System.Drawing.Size(358, 272);
             this.tabRegistrar.TabIndex = 0;
             this.tabRegistrar.Text = "Registrar";
             this.tabRegistrar.UseVisualStyleBackColor = true;
@@ -79,7 +79,7 @@
             this.tabConsultar.Location = new System.Drawing.Point(4, 22);
             this.tabConsultar.Name = "tabConsultar";
             this.tabConsultar.Padding = new System.Windows.Forms.Padding(3);
-            this.tabConsultar.Size = new System.Drawing.Size(421, 290);
+            this.tabConsultar.Size = new System.Drawing.Size(358, 272);
             this.tabConsultar.TabIndex = 1;
             this.tabConsultar.Text = "Consultar";
             this.tabConsultar.UseVisualStyleBackColor = true;
@@ -102,9 +102,9 @@
             this.mrcProducto.Controls.Add(this.lblID);
             this.mrcProducto.Controls.Add(this.lblNombre);
             this.mrcProducto.Controls.Add(this.txtNombre);
-            this.mrcProducto.Location = new System.Drawing.Point(90, 26);
+            this.mrcProducto.Location = new System.Drawing.Point(8, 16);
             this.mrcProducto.Name = "mrcProducto";
-            this.mrcProducto.Size = new System.Drawing.Size(262, 236);
+            this.mrcProducto.Size = new System.Drawing.Size(247, 234);
             this.mrcProducto.TabIndex = 1;
             this.mrcProducto.TabStop = false;
             this.mrcProducto.Text = "Producto";
@@ -178,7 +178,7 @@
             this.dtgvFecha});
             this.dtgvConsultarProducto.Location = new System.Drawing.Point(3, 3);
             this.dtgvConsultarProducto.Name = "dtgvConsultarProducto";
-            this.dtgvConsultarProducto.Size = new System.Drawing.Size(362, 203);
+            this.dtgvConsultarProducto.Size = new System.Drawing.Size(349, 215);
             this.dtgvConsultarProducto.TabIndex = 0;
             // 
             // dtgvNombre
@@ -200,7 +200,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 354);
+            this.ClientSize = new System.Drawing.Size(372, 312);
             this.Controls.Add(this.tabCargarProducto);
             this.Name = "frmProducto";
             this.Text = "Producto";

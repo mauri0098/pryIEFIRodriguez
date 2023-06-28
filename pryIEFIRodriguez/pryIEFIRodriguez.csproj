@@ -52,6 +52,12 @@
     <Compile Include="frmCargarProducto.Designer.cs">
       <DependentUpon>frmCargarProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCargarVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCargarVentas.Designer.cs">
+      <DependentUpon>frmCargarVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
