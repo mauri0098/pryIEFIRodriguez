@@ -40,6 +40,7 @@
             this.cmdVentas.TabIndex = 0;
             this.cmdVentas.Text = "Ventas";
             this.cmdVentas.UseVisualStyleBackColor = true;
+            this.cmdVentas.Click += new System.EventHandler(this.cmdVentas_Click);
             // 
             // cmdProducto
             // 

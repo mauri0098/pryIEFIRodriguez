@@ -102,7 +102,7 @@
             this.mrcProducto.Controls.Add(this.lblID);
             this.mrcProducto.Controls.Add(this.lblNombre);
             this.mrcProducto.Controls.Add(this.txtNombre);
-            this.mrcProducto.Location = new System.Drawing.Point(8, 16);
+            this.mrcProducto.Location = new System.Drawing.Point(45, 17);
             this.mrcProducto.Name = "mrcProducto";
             this.mrcProducto.Size = new System.Drawing.Size(247, 234);
             this.mrcProducto.TabIndex = 1;

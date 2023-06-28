@@ -23,5 +23,12 @@ namespace pryIEFIRodriguez
             this.Hide();
             frmCargarProducto.ShowDialog();
         }
+
+        private void cmdVentas_Click(object sender, EventArgs e)
+        {
+            frmCargarVentas frmCargarVentas = new frmCargarVentas();
+            this.Hide();
+            frmCargarVentas.ShowDialog();
+        }
     }
 }
