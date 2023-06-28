@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -43,7 +44,7 @@ namespace pryIEFIRodriguez
                     {
                         MessageBox.Show("Falta Completar el ID", "Cargar ID", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         txtNombre.Focus();
-                    }base.Close();
+                    }
                     
                     MessageBox.Show("vamos a Consultar");
 
