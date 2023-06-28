@@ -28,19 +28,169 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.tabCargarProducto = new System.Windows.Forms.TabControl();
+            this.tabRegistrar = new System.Windows.Forms.TabPage();
+            this.tabConsultar = new System.Windows.Forms.TabPage();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.mrcProducto = new System.Windows.Forms.GroupBox();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblID = new System.Windows.Forms.Label();
+            this.nudID = new System.Windows.Forms.NumericUpDown();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.cmdRegistrar = new System.Windows.Forms.Button();
+            this.cmdCancelar = new System.Windows.Forms.Button();
+            this.tabCargarProducto.SuspendLayout();
+            this.tabRegistrar.SuspendLayout();
+            this.mrcProducto.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudID)).BeginInit();
             this.SuspendLayout();
+            // 
+            // tabCargarProducto
+            // 
+            this.tabCargarProducto.Controls.Add(this.tabRegistrar);
+            this.tabCargarProducto.Controls.Add(this.tabConsultar);
+            this.tabCargarProducto.Location = new System.Drawing.Point(0, 0);
+            this.tabCargarProducto.Name = "tabCargarProducto";
+            this.tabCargarProducto.SelectedIndex = 0;
+            this.tabCargarProducto.Size = new System.Drawing.Size(434, 325);
+            this.tabCargarProducto.TabIndex = 0;
+            // 
+            // tabRegistrar
+            // 
+            this.tabRegistrar.Controls.Add(this.mrcProducto);
+            this.tabRegistrar.Location = new System.Drawing.Point(4, 22);
+            this.tabRegistrar.Name = "tabRegistrar";
+            this.tabRegistrar.Padding = new System.Windows.Forms.Padding(3);
+            this.tabRegistrar.Size = new System.Drawing.Size(426, 299);
+            this.tabRegistrar.TabIndex = 0;
+            this.tabRegistrar.Text = "Registrar";
+            this.tabRegistrar.UseVisualStyleBackColor = true;
+            // 
+            // tabConsultar
+            // 
+            this.tabConsultar.Location = new System.Drawing.Point(4, 22);
+            this.tabConsultar.Name = "tabConsultar";
+            this.tabConsultar.Padding = new System.Windows.Forms.Padding(3);
+            this.tabConsultar.Size = new System.Drawing.Size(486, 327);
+            this.tabConsultar.TabIndex = 1;
+            this.tabConsultar.Text = "Consultar";
+            this.tabConsultar.UseVisualStyleBackColor = true;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(72, 45);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(89, 20);
+            this.txtNombre.TabIndex = 0;
+            this.txtNombre.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // mrcProducto
+            // 
+            this.mrcProducto.Controls.Add(this.cmdCancelar);
+            this.mrcProducto.Controls.Add(this.cmdRegistrar);
+            this.mrcProducto.Controls.Add(this.lblFecha);
+            this.mrcProducto.Controls.Add(this.dateTimePicker1);
+            this.mrcProducto.Controls.Add(this.nudID);
+            this.mrcProducto.Controls.Add(this.lblID);
+            this.mrcProducto.Controls.Add(this.lblNombre);
+            this.mrcProducto.Controls.Add(this.txtNombre);
+            this.mrcProducto.Location = new System.Drawing.Point(90, 26);
+            this.mrcProducto.Name = "mrcProducto";
+            this.mrcProducto.Size = new System.Drawing.Size(262, 236);
+            this.mrcProducto.TabIndex = 1;
+            this.mrcProducto.TabStop = false;
+            this.mrcProducto.Text = "Producto";
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(22, 48);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(44, 13);
+            this.lblNombre.TabIndex = 1;
+            this.lblNombre.Text = "Nombre";
+            // 
+            // lblID
+            // 
+            this.lblID.AutoSize = true;
+            this.lblID.Location = new System.Drawing.Point(31, 86);
+            this.lblID.Name = "lblID";
+            this.lblID.Size = new System.Drawing.Size(18, 13);
+            this.lblID.TabIndex = 2;
+            this.lblID.Text = "ID";
+            // 
+            // nudID
+            // 
+            this.nudID.Location = new System.Drawing.Point(72, 84);
+            this.nudID.Name = "nudID";
+            this.nudID.Size = new System.Drawing.Size(89, 20);
+            this.nudID.TabIndex = 2;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(25, 150);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(194, 20);
+            this.dateTimePicker1.TabIndex = 2;
+            // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Location = new System.Drawing.Point(22, 134);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(37, 13);
+            this.lblFecha.TabIndex = 3;
+            this.lblFecha.Text = "Fecha";
+            // 
+            // cmdRegistrar
+            // 
+            this.cmdRegistrar.Location = new System.Drawing.Point(25, 195);
+            this.cmdRegistrar.Name = "cmdRegistrar";
+            this.cmdRegistrar.Size = new System.Drawing.Size(75, 23);
+            this.cmdRegistrar.TabIndex = 1;
+            this.cmdRegistrar.Text = "Registrar";
+            this.cmdRegistrar.UseVisualStyleBackColor = true;
+            // 
+            // cmdCancelar
+            // 
+            this.cmdCancelar.Location = new System.Drawing.Point(119, 195);
+            this.cmdCancelar.Name = "cmdCancelar";
+            this.cmdCancelar.Size = new System.Drawing.Size(76, 23);
+            this.cmdCancelar.TabIndex = 4;
+            this.cmdCancelar.Text = "Cancelar";
+            this.cmdCancelar.UseVisualStyleBackColor = true;
             // 
             // frmProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(627, 365);
+            this.ClientSize = new System.Drawing.Size(488, 354);
+            this.Controls.Add(this.tabCargarProducto);
             this.Name = "frmProducto";
             this.Text = "Producto";
+            this.tabCargarProducto.ResumeLayout(false);
+            this.tabRegistrar.ResumeLayout(false);
+            this.mrcProducto.ResumeLayout(false);
+            this.mrcProducto.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudID)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.TabControl tabCargarProducto;
+        private System.Windows.Forms.TabPage tabRegistrar;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TabPage tabConsultar;
+        private System.Windows.Forms.GroupBox mrcProducto;
+        private System.Windows.Forms.Button cmdCancelar;
+        private System.Windows.Forms.Button cmdRegistrar;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.NumericUpDown nudID;
+        private System.Windows.Forms.Label lblID;
+        private System.Windows.Forms.Label lblNombre;
     }
 }
