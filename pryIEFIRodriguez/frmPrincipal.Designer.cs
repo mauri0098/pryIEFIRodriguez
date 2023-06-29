@@ -38,11 +38,12 @@
             // 
             // cmdVentas
             // 
-            this.cmdVentas.BackColor = System.Drawing.Color.LightYellow;
+            this.cmdVentas.BackColor = System.Drawing.Color.SkyBlue;
             this.cmdVentas.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdVentas.Location = new System.Drawing.Point(12, 68);
+            this.cmdVentas.Location = new System.Drawing.Point(14, 78);
+            this.cmdVentas.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmdVentas.Name = "cmdVentas";
-            this.cmdVentas.Size = new System.Drawing.Size(97, 34);
+            this.cmdVentas.Size = new System.Drawing.Size(106, 39);
             this.cmdVentas.TabIndex = 0;
             this.cmdVentas.Text = "Ventas";
             this.cmdVentas.UseVisualStyleBackColor = false;
@@ -50,11 +51,12 @@
             // 
             // cmdProducto
             // 
-            this.cmdProducto.BackColor = System.Drawing.Color.LightYellow;
+            this.cmdProducto.BackColor = System.Drawing.Color.Linen;
             this.cmdProducto.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdProducto.Location = new System.Drawing.Point(131, 68);
+            this.cmdProducto.Location = new System.Drawing.Point(137, 78);
+            this.cmdProducto.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmdProducto.Name = "cmdProducto";
-            this.cmdProducto.Size = new System.Drawing.Size(88, 34);
+            this.cmdProducto.Size = new System.Drawing.Size(103, 39);
             this.cmdProducto.TabIndex = 1;
             this.cmdProducto.Text = "Producto";
             this.cmdProducto.UseVisualStyleBackColor = false;
@@ -64,7 +66,8 @@
             // 
             this.lblRegistrar.AutoSize = true;
             this.lblRegistrar.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRegistrar.Location = new System.Drawing.Point(4, 9);
+            this.lblRegistrar.Location = new System.Drawing.Point(5, 10);
+            this.lblRegistrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRegistrar.Name = "lblRegistrar";
             this.lblRegistrar.Size = new System.Drawing.Size(157, 45);
             this.lblRegistrar.TabIndex = 2;
@@ -72,26 +75,29 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Image = global::pryIEFIRodriguez.Properties.Resources._252324;
-            this.pictureBox1.Location = new System.Drawing.Point(157, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(183, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(49, 42);
+            this.pictureBox1.Size = new System.Drawing.Size(57, 48);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // frmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.ClientSize = new System.Drawing.Size(270, 129);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(315, 149);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblRegistrar);
             this.Controls.Add(this.cmdProducto);
             this.Controls.Add(this.cmdVentas);
+            this.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar";

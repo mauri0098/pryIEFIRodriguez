@@ -118,32 +118,41 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtContraseña.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt</value>
+  </data>
+  <data name="txtContraseña.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
   <data name="cmdCancelar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt, style=Bold</value>
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="cmdCancelar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 121</value>
   </data>
   <data name="cmdAcetar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt, style=Bold</value>
+    <value>Calibri, 9.75pt, style=Bold</value>
   </data>
   <data name="cmdAcetar.Location" type="System.Drawing.Point, System.Drawing">
     <value>29, 121</value>
   </data>
+  <data name="txtUsuario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt</value>
+  </data>
+  <data name="txtUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
   <data name="lblContraseña.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt, style=Bold</value>
+    <value>Calibri, 9.75pt, style=Bold</value>
   </data>
   <data name="lblContraseña.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 73</value>
   </data>
-  <data name="lblContraseña.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 19</value>
-  </data>
   <data name="lblUsuario.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt, style=Bold</value>
+    <value>Calibri, 9.75pt, style=Bold</value>
   </data>
   <data name="lblUsuario.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 30</value>
-  </data>
-  <data name="lblUsuario.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 19</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>279, 166</value>

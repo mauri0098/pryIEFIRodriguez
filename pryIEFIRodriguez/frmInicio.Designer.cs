@@ -40,7 +40,7 @@
             // 
             this.cmdInicioSesion.BackColor = System.Drawing.Color.Transparent;
             this.cmdInicioSesion.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdInicioSesion.Location = new System.Drawing.Point(117, 202);
+            this.cmdInicioSesion.Location = new System.Drawing.Point(139, 193);
             this.cmdInicioSesion.Name = "cmdInicioSesion";
             this.cmdInicioSesion.Size = new System.Drawing.Size(184, 48);
             this.cmdInicioSesion.TabIndex = 0;
@@ -53,8 +53,8 @@
             this.lblProductos.AutoSize = true;
             this.lblProductos.BackColor = System.Drawing.Color.Transparent;
             this.lblProductos.Font = new System.Drawing.Font("Calibri", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProductos.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.lblProductos.Location = new System.Drawing.Point(245, 9);
+            this.lblProductos.ForeColor = System.Drawing.Color.Black;
+            this.lblProductos.Location = new System.Drawing.Point(234, 22);
             this.lblProductos.Name = "lblProductos";
             this.lblProductos.Size = new System.Drawing.Size(227, 59);
             this.lblProductos.TabIndex = 2;
@@ -66,8 +66,8 @@
             this.lblVentas.AutoSize = true;
             this.lblVentas.BackColor = System.Drawing.Color.Transparent;
             this.lblVentas.Font = new System.Drawing.Font("Calibri", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVentas.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.lblVentas.Location = new System.Drawing.Point(245, 88);
+            this.lblVentas.ForeColor = System.Drawing.Color.Black;
+            this.lblVentas.Location = new System.Drawing.Point(258, 101);
             this.lblVentas.Name = "lblVentas";
             this.lblVentas.Size = new System.Drawing.Size(161, 59);
             this.lblVentas.TabIndex = 3;
@@ -75,11 +75,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::pryIEFIRodriguez.Properties.Resources.zarla_logro_comercial_1x1_2400x2400_20220202_7w7qqqj9kt4ppw67yytt__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(1, 4);
+            this.pictureBox1.Image = global::pryIEFIRodriguez.Properties.Resources.abstract_geometric_logo_or_infinity_line_logo_for_your_company_free_vector;
+            this.pictureBox1.Location = new System.Drawing.Point(5, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(238, 192);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.Size = new System.Drawing.Size(211, 175);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -88,8 +87,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.ClientSize = new System.Drawing.Size(466, 262);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(464, 264);
             this.Controls.Add(this.lblVentas);
             this.Controls.Add(this.lblProductos);
             this.Controls.Add(this.pictureBox1);

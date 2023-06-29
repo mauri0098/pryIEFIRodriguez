@@ -124,6 +124,9 @@
   <data name="mejorar-la-fuerza-de-ventas-en-tu-negocio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mejorar-la-fuerza-de-ventas-en-tu-negocio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="4021693" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4021693.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="zarla-logro-comercial-1x1-2400x2400-20220202-mdp9v7jh6gdfdftqctp9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zarla-logro-comercial-1x1-2400x2400-20220202-mdp9v7jh6gdfdftqctp9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,7 +142,7 @@
   <data name="252324" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\252324.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="4021693" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4021693.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="abstract-geometric-logo-or-infinity-line-logo-for-your-company-free-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abstract-geometric-logo-or-infinity-line-logo-for-your-company-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

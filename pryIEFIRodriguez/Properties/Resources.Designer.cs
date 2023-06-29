@@ -93,6 +93,16 @@ namespace pryIEFIRodriguez.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap abstract_geometric_logo_or_infinity_line_logo_for_your_company_free_vector {
+            get {
+                object obj = ResourceManager.GetObject("abstract-geometric-logo-or-infinity-line-logo-for-your-company-free-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mejorar_la_fuerza_de_ventas_en_tu_negocio {
             get {
                 object obj = ResourceManager.GetObject("mejorar-la-fuerza-de-ventas-en-tu-negocio", resourceCulture);
