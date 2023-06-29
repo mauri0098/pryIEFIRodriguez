@@ -21,7 +21,10 @@ namespace pryIEFIRodriguez
         {
             frmLogin frmLogin = new frmLogin();
             this.Hide();
+            frmLogin.StartPosition = FormStartPosition.CenterScreen;
             frmLogin.ShowDialog();
+           
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

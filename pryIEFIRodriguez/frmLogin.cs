@@ -27,7 +27,7 @@ namespace pryIEFIRodriguez
             //Datos para las variables
             Vusuario = txtUsuario.Text;
             Vcontraseña = txtContraseña.Text;
-            if (Vusuario == "Marcelo" && Vcontraseña == "1234")
+            if (Vusuario == "Mauri" && Vcontraseña == "1234")
             {
                 frmPrincipal frmPrincipal = new frmPrincipal();
                 frmPrincipal.ShowDialog();
