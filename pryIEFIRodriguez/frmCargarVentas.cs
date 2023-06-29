@@ -31,7 +31,7 @@ namespace pryIEFIRodriguez
             {
                 if (txtProducto.Text != "")
                 {
-                    MessageBox.Show("vamos a Consultar");
+                    MessageBox.Show("vamos a Registrar");
 
 
 

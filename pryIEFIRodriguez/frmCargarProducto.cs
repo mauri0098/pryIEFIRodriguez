@@ -47,7 +47,7 @@ namespace pryIEFIRodriguez
                         txtNombre.Focus();
                     }
                     
-                    MessageBox.Show("vamos a Consultar");
+                    MessageBox.Show("vamos a Registrar");
 
                     
                     

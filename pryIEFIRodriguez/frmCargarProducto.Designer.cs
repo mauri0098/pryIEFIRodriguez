@@ -59,7 +59,7 @@
             this.tabProducto.Location = new System.Drawing.Point(0, 0);
             this.tabProducto.Name = "tabProducto";
             this.tabProducto.SelectedIndex = 0;
-            this.tabProducto.Size = new System.Drawing.Size(366, 298);
+            this.tabProducto.Size = new System.Drawing.Size(400, 298);
             this.tabProducto.TabIndex = 0;
             // 
             // tabRegistrar
@@ -68,7 +68,7 @@
             this.tabRegistrar.Location = new System.Drawing.Point(4, 22);
             this.tabRegistrar.Name = "tabRegistrar";
             this.tabRegistrar.Padding = new System.Windows.Forms.Padding(3);
-            this.tabRegistrar.Size = new System.Drawing.Size(358, 272);
+            this.tabRegistrar.Size = new System.Drawing.Size(392, 272);
             this.tabRegistrar.TabIndex = 0;
             this.tabRegistrar.Text = "Registrar";
             this.tabRegistrar.UseVisualStyleBackColor = true;
@@ -83,7 +83,7 @@
             this.mrcProducto.Controls.Add(this.lblID);
             this.mrcProducto.Controls.Add(this.lblNombre);
             this.mrcProducto.Controls.Add(this.txtNombre);
-            this.mrcProducto.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mrcProducto.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcProducto.Location = new System.Drawing.Point(48, 15);
             this.mrcProducto.Name = "mrcProducto";
             this.mrcProducto.Size = new System.Drawing.Size(244, 251);
@@ -93,20 +93,20 @@
             // 
             // cmdCancelar
             // 
-            this.cmdCancelar.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdCancelar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdCancelar.Location = new System.Drawing.Point(119, 195);
             this.cmdCancelar.Name = "cmdCancelar";
-            this.cmdCancelar.Size = new System.Drawing.Size(76, 35);
+            this.cmdCancelar.Size = new System.Drawing.Size(76, 27);
             this.cmdCancelar.TabIndex = 4;
             this.cmdCancelar.Text = "Cancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
             // 
             // cmdRegistrar
             // 
-            this.cmdRegistrar.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdRegistrar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdRegistrar.Location = new System.Drawing.Point(25, 195);
             this.cmdRegistrar.Name = "cmdRegistrar";
-            this.cmdRegistrar.Size = new System.Drawing.Size(75, 35);
+            this.cmdRegistrar.Size = new System.Drawing.Size(75, 27);
             this.cmdRegistrar.TabIndex = 1;
             this.cmdRegistrar.Text = "Registrar";
             this.cmdRegistrar.UseVisualStyleBackColor = true;
@@ -115,10 +115,10 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(22, 134);
+            this.lblFecha.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.Location = new System.Drawing.Point(22, 136);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(43, 17);
+            this.lblFecha.Size = new System.Drawing.Size(38, 15);
             this.lblFecha.TabIndex = 3;
             this.lblFecha.Text = "Fecha";
             // 
@@ -126,14 +126,14 @@
             // 
             this.dptFecha.CalendarFont = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dptFecha.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dptFecha.Location = new System.Drawing.Point(19, 154);
+            this.dptFecha.Location = new System.Drawing.Point(6, 154);
             this.dptFecha.Name = "dptFecha";
             this.dptFecha.Size = new System.Drawing.Size(219, 22);
             this.dptFecha.TabIndex = 2;
             // 
             // nudID
             // 
-            this.nudID.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudID.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudID.Location = new System.Drawing.Point(86, 89);
             this.nudID.Name = "nudID";
             this.nudID.Size = new System.Drawing.Size(89, 23);
@@ -142,26 +142,26 @@
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblID.Location = new System.Drawing.Point(37, 95);
+            this.lblID.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblID.Location = new System.Drawing.Point(42, 91);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(22, 17);
+            this.lblID.Size = new System.Drawing.Size(18, 15);
             this.lblID.TabIndex = 2;
             this.lblID.Text = "ID";
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(22, 48);
+            this.lblNombre.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Location = new System.Drawing.Point(22, 51);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(58, 17);
+            this.lblNombre.Size = new System.Drawing.Size(53, 15);
             this.lblNombre.TabIndex = 1;
             this.lblNombre.Text = "Nombre";
             // 
             // txtNombre
             // 
-            this.txtNombre.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.Location = new System.Drawing.Point(86, 48);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(89, 23);
@@ -174,7 +174,7 @@
             this.tabConsultar.Location = new System.Drawing.Point(4, 22);
             this.tabConsultar.Name = "tabConsultar";
             this.tabConsultar.Padding = new System.Windows.Forms.Padding(3);
-            this.tabConsultar.Size = new System.Drawing.Size(358, 272);
+            this.tabConsultar.Size = new System.Drawing.Size(392, 272);
             this.tabConsultar.TabIndex = 1;
             this.tabConsultar.Text = "Consultar";
             this.tabConsultar.UseVisualStyleBackColor = true;
@@ -188,7 +188,7 @@
             this.dtgvFecha});
             this.dtgvConsultarProducto.Location = new System.Drawing.Point(3, 3);
             this.dtgvConsultarProducto.Name = "dtgvConsultarProducto";
-            this.dtgvConsultarProducto.Size = new System.Drawing.Size(349, 215);
+            this.dtgvConsultarProducto.Size = new System.Drawing.Size(379, 215);
             this.dtgvConsultarProducto.TabIndex = 0;
             // 
             // dtgvNombre
@@ -210,7 +210,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 312);
+            this.ClientSize = new System.Drawing.Size(398, 366);
             this.Controls.Add(this.tabProducto);
             this.Name = "frmCargarProducto";
             this.Text = "Producto";
