@@ -170,8 +170,8 @@
   <data name="&gt;&gt;cmdAcetar.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="lblUsuario.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 28</value>
+  <data name="lblUsuario.Text" xml:space="preserve">
+    <value>Usuario</value>
   </data>
   <data name="cmdAcetar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 9.75pt, style=Bold</value>
@@ -206,6 +206,9 @@
   <data name="&gt;&gt;cmdAcetar.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="&gt;&gt;lblUsuario.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="lblUsuario.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
@@ -236,14 +239,14 @@
   <data name="lblContraseña.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 15</value>
   </data>
+  <data name="txtContraseña.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 21</value>
+  </data>
   <data name="&gt;&gt;txtUsuario.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="cmdCancelar.Location" type="System.Drawing.Point, System.Drawing">
     <value>137, 121</value>
-  </data>
-  <data name="&gt;&gt;lblContraseña.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="&gt;&gt;txtContraseña.Parent" xml:space="preserve">
     <value>$this</value>
@@ -253,9 +256,6 @@
   </data>
   <data name="cmdCancelar.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
-  </data>
-  <data name="lblUsuario.Text" xml:space="preserve">
-    <value>Usuario</value>
   </data>
   <data name="&gt;&gt;lblUsuario.Parent" xml:space="preserve">
     <value>$this</value>
@@ -284,8 +284,8 @@
   <data name="cmdCancelar.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="&gt;&gt;lblUsuario.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="lblUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 28</value>
   </data>
   <data name="txtContraseña.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value>#</value>
@@ -296,8 +296,8 @@
   <data name="txtContraseña.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="txtContraseña.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 21</value>
+  <data name="&gt;&gt;lblContraseña.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
