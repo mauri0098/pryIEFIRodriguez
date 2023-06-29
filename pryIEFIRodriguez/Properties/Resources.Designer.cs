@@ -73,6 +73,17 @@ namespace pryIEFIRodriguez.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_note_and_pencil_illustration_computer_icons_icon_design_symbol_registration_miscellaneous_angle_text_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-note-and-pencil-illustration-computer-icons-icon-design-symbol-re" +
+                        "gistration-miscellaneous-angle-text-thumbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap zarla_logro_comercial_1x1_2400x2400_20220202_7w7qqqj9kt4ppw67yytt__1_ {
             get {
                 object obj = ResourceManager.GetObject("zarla-logro-comercial-1x1-2400x2400-20220202-7w7qqqj9kt4ppw67yytt (1)", resourceCulture);

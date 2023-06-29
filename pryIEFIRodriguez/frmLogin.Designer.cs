@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.cmdCancelar = new System.Windows.Forms.Button();
             this.cmdAcetar = new System.Windows.Forms.Button();
@@ -38,68 +39,42 @@
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseña.Location = new System.Drawing.Point(110, 71);
+            resources.ApplyResources(this.txtContraseña, "txtContraseña");
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.PasswordChar = '#';
-            this.txtContraseña.Size = new System.Drawing.Size(102, 21);
-            this.txtContraseña.TabIndex = 18;
             // 
             // cmdCancelar
             // 
-            this.cmdCancelar.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdCancelar.Location = new System.Drawing.Point(137, 121);
+            resources.ApplyResources(this.cmdCancelar, "cmdCancelar");
             this.cmdCancelar.Name = "cmdCancelar";
-            this.cmdCancelar.Size = new System.Drawing.Size(75, 23);
-            this.cmdCancelar.TabIndex = 17;
-            this.cmdCancelar.Text = "Cancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
             // 
             // cmdAcetar
             // 
-            this.cmdAcetar.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdAcetar.Location = new System.Drawing.Point(37, 121);
+            resources.ApplyResources(this.cmdAcetar, "cmdAcetar");
             this.cmdAcetar.Name = "cmdAcetar";
-            this.cmdAcetar.Size = new System.Drawing.Size(75, 23);
-            this.cmdAcetar.TabIndex = 16;
-            this.cmdAcetar.Text = "Aceptar";
             this.cmdAcetar.UseVisualStyleBackColor = true;
             this.cmdAcetar.Click += new System.EventHandler(this.cmdAcetar_Click);
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(110, 28);
+            resources.ApplyResources(this.txtUsuario, "txtUsuario");
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(102, 21);
-            this.txtUsuario.TabIndex = 15;
             // 
             // lblContraseña
             // 
-            this.lblContraseña.AutoSize = true;
-            this.lblContraseña.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContraseña.Location = new System.Drawing.Point(34, 75);
+            resources.ApplyResources(this.lblContraseña, "lblContraseña");
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(69, 15);
-            this.lblContraseña.TabIndex = 14;
-            this.lblContraseña.Text = "Contraseña";
             // 
             // lblUsuario
             // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(34, 28);
+            resources.ApplyResources(this.lblUsuario, "lblUsuario");
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(48, 15);
-            this.lblUsuario.TabIndex = 13;
-            this.lblUsuario.Text = "Usuario";
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(276, 159);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.cmdCancelar);
             this.Controls.Add(this.cmdAcetar);
@@ -107,7 +82,6 @@
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
             this.Name = "frmLogin";
-            this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 

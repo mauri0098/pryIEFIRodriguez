@@ -117,4 +117,192 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblContraseña.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;cmdAcetar.Name" xml:space="preserve">
+    <value>cmdAcetar</value>
+  </data>
+  <data name="txtUsuario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;cmdCancelar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdCancelar.Name" xml:space="preserve">
+    <value>cmdCancelar</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>276, 159</value>
+  </data>
+  <data name="&gt;&gt;txtUsuario.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtUsuario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblContraseña.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblContraseña.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 75</value>
+  </data>
+  <data name="cmdCancelar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="txtContraseña.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 71</value>
+  </data>
+  <data name="&gt;&gt;lblContraseña.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdAcetar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 121</value>
+  </data>
+  <data name="&gt;&gt;lblUsuario.Name" xml:space="preserve">
+    <value>lblUsuario</value>
+  </data>
+  <data name="txtUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 21</value>
+  </data>
+  <data name="&gt;&gt;cmdAcetar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="cmdAcetar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="cmdAcetar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblContraseña.Text" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="lblUsuario.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmLogin</value>
+  </data>
+  <data name="&gt;&gt;txtContraseña.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txtUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 28</value>
+  </data>
+  <data name="&gt;&gt;cmdAcetar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cmdAcetar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;lblContraseña.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 15</value>
+  </data>
+  <data name="&gt;&gt;txtUsuario.Name" xml:space="preserve">
+    <value>txtUsuario</value>
+  </data>
+  <data name="lblContraseña.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmdAcetar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdCancelar.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="lblContraseña.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 15</value>
+  </data>
+  <data name="&gt;&gt;txtUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdCancelar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 121</value>
+  </data>
+  <data name="&gt;&gt;lblContraseña.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtContraseña.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdCancelar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdCancelar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lblUsuario.Text" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="&gt;&gt;lblUsuario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtContraseña.Name" xml:space="preserve">
+    <value>txtContraseña</value>
+  </data>
+  <data name="&gt;&gt;cmdCancelar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblUsuario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtContraseña.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdAcetar.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="&gt;&gt;lblContraseña.Name" xml:space="preserve">
+    <value>lblContraseña</value>
+  </data>
+  <data name="cmdCancelar.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblUsuario.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtContraseña.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="txtContraseña.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtContraseña.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txtContraseña.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 21</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>aa-ET</value>
+  </metadata>
 </root>

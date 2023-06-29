@@ -118,13 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="zarla-logro-comercial-1x1-2400x2400-20220202-mdp9v7jh6gdfdftqctp9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zarla-logro-comercial-1x1-2400x2400-20220202-mdp9v7jh6gdfdftqctp9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="mejorar-la-fuerza-de-ventas-en-tu-negocio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mejorar-la-fuerza-de-ventas-en-tu-negocio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="zarla-logro-comercial-1x1-2400x2400-20220202-mdp9v7jh6gdfdftqctp9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zarla-logro-comercial-1x1-2400x2400-20220202-mdp9v7jh6gdfdftqctp9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="zarla-logro-comercial-1x1-2400x2400-20220202-7w7qqqj9kt4ppw67yytt (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zarla-logro-comercial-1x1-2400x2400-20220202-7w7qqqj9kt4ppw67yytt (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-note-and-pencil-illustration-computer-icons-icon-design-symbol-registration-miscellaneous-angle-text-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-note-and-pencil-illustration-computer-icons-icon-design-symbol-registration-miscellaneous-angle-text-thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

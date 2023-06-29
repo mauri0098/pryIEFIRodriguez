@@ -87,6 +87,9 @@
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.aa-ET.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +127,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\zarla-logro-comercial-1x1-2400x2400-20220202-7w7qqqj9kt4ppw67yytt %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-note-and-pencil-illustration-computer-icons-icon-design-symbol-registration-miscellaneous-angle-text-thumbnail.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
