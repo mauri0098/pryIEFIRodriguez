@@ -40,7 +40,7 @@
             // 
             this.cmdInicioSesion.BackColor = System.Drawing.Color.Transparent;
             this.cmdInicioSesion.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdInicioSesion.Location = new System.Drawing.Point(139, 193);
+            this.cmdInicioSesion.Location = new System.Drawing.Point(134, 193);
             this.cmdInicioSesion.Name = "cmdInicioSesion";
             this.cmdInicioSesion.Size = new System.Drawing.Size(184, 48);
             this.cmdInicioSesion.TabIndex = 0;
