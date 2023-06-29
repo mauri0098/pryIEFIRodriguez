@@ -63,6 +63,26 @@ namespace pryIEFIRodriguez.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mejorar_la_fuerza_de_ventas_en_tu_negocio {
+            get {
+                object obj = ResourceManager.GetObject("mejorar-la-fuerza-de-ventas-en-tu-negocio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zarla_logro_comercial_1x1_2400x2400_20220202_7w7qqqj9kt4ppw67yytt__1_ {
+            get {
+                object obj = ResourceManager.GetObject("zarla-logro-comercial-1x1-2400x2400-20220202-7w7qqqj9kt4ppw67yytt (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap zarla_logro_comercial_1x1_2400x2400_20220202_mdp9v7jh6gdfdftqctp9 {
             get {
                 object obj = ResourceManager.GetObject("zarla-logro-comercial-1x1-2400x2400-20220202-mdp9v7jh6gdfdftqctp9", resourceCulture);

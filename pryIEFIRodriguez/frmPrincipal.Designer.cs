@@ -35,9 +35,9 @@
             // 
             // cmdVentas
             // 
-            this.cmdVentas.Location = new System.Drawing.Point(75, 133);
+            this.cmdVentas.Location = new System.Drawing.Point(32, 99);
             this.cmdVentas.Name = "cmdVentas";
-            this.cmdVentas.Size = new System.Drawing.Size(111, 59);
+            this.cmdVentas.Size = new System.Drawing.Size(97, 34);
             this.cmdVentas.TabIndex = 0;
             this.cmdVentas.Text = "Ventas";
             this.cmdVentas.UseVisualStyleBackColor = true;
@@ -45,9 +45,9 @@
             // 
             // cmdProducto
             // 
-            this.cmdProducto.Location = new System.Drawing.Point(213, 133);
+            this.cmdProducto.Location = new System.Drawing.Point(155, 99);
             this.cmdProducto.Name = "cmdProducto";
-            this.cmdProducto.Size = new System.Drawing.Size(100, 59);
+            this.cmdProducto.Size = new System.Drawing.Size(88, 34);
             this.cmdProducto.TabIndex = 1;
             this.cmdProducto.Text = "Producto";
             this.cmdProducto.UseVisualStyleBackColor = true;
@@ -56,9 +56,10 @@
             // lblRegistrar
             // 
             this.lblRegistrar.AutoSize = true;
-            this.lblRegistrar.Location = new System.Drawing.Point(91, 48);
+            this.lblRegistrar.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRegistrar.Location = new System.Drawing.Point(22, 9);
             this.lblRegistrar.Name = "lblRegistrar";
-            this.lblRegistrar.Size = new System.Drawing.Size(49, 13);
+            this.lblRegistrar.Size = new System.Drawing.Size(202, 59);
             this.lblRegistrar.TabIndex = 2;
             this.lblRegistrar.Text = "Registrar";
             // 
@@ -66,7 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(451, 293);
+            this.ClientSize = new System.Drawing.Size(359, 205);
             this.Controls.Add(this.lblRegistrar);
             this.Controls.Add(this.cmdProducto);
             this.Controls.Add(this.cmdVentas);
