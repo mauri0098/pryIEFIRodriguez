@@ -77,7 +77,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Image = global::pryIEFIRodriguez.Properties.Resources._252324;
-            this.pictureBox1.Location = new System.Drawing.Point(183, 14);
+            this.pictureBox1.Location = new System.Drawing.Point(170, 12);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(57, 48);
