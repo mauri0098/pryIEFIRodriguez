@@ -83,27 +83,30 @@
             this.mrcProducto.Controls.Add(this.lblID);
             this.mrcProducto.Controls.Add(this.lblNombre);
             this.mrcProducto.Controls.Add(this.txtNombre);
-            this.mrcProducto.Location = new System.Drawing.Point(41, 15);
+            this.mrcProducto.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mrcProducto.Location = new System.Drawing.Point(48, 15);
             this.mrcProducto.Name = "mrcProducto";
-            this.mrcProducto.Size = new System.Drawing.Size(247, 234);
+            this.mrcProducto.Size = new System.Drawing.Size(244, 251);
             this.mrcProducto.TabIndex = 1;
             this.mrcProducto.TabStop = false;
             this.mrcProducto.Text = "Producto";
             // 
             // cmdCancelar
             // 
+            this.cmdCancelar.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdCancelar.Location = new System.Drawing.Point(119, 195);
             this.cmdCancelar.Name = "cmdCancelar";
-            this.cmdCancelar.Size = new System.Drawing.Size(76, 23);
+            this.cmdCancelar.Size = new System.Drawing.Size(76, 35);
             this.cmdCancelar.TabIndex = 4;
             this.cmdCancelar.Text = "Cancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
             // 
             // cmdRegistrar
             // 
+            this.cmdRegistrar.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdRegistrar.Location = new System.Drawing.Point(25, 195);
             this.cmdRegistrar.Name = "cmdRegistrar";
-            this.cmdRegistrar.Size = new System.Drawing.Size(75, 23);
+            this.cmdRegistrar.Size = new System.Drawing.Size(75, 35);
             this.cmdRegistrar.TabIndex = 1;
             this.cmdRegistrar.Text = "Registrar";
             this.cmdRegistrar.UseVisualStyleBackColor = true;
@@ -112,49 +115,56 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
+            this.lblFecha.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecha.Location = new System.Drawing.Point(22, 134);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(37, 13);
+            this.lblFecha.Size = new System.Drawing.Size(43, 17);
             this.lblFecha.TabIndex = 3;
             this.lblFecha.Text = "Fecha";
             // 
             // dptFecha
             // 
-            this.dptFecha.Location = new System.Drawing.Point(25, 150);
+            this.dptFecha.CalendarFont = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dptFecha.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dptFecha.Location = new System.Drawing.Point(19, 154);
             this.dptFecha.Name = "dptFecha";
-            this.dptFecha.Size = new System.Drawing.Size(194, 20);
+            this.dptFecha.Size = new System.Drawing.Size(219, 22);
             this.dptFecha.TabIndex = 2;
             // 
             // nudID
             // 
-            this.nudID.Location = new System.Drawing.Point(72, 84);
+            this.nudID.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudID.Location = new System.Drawing.Point(86, 89);
             this.nudID.Name = "nudID";
-            this.nudID.Size = new System.Drawing.Size(89, 20);
+            this.nudID.Size = new System.Drawing.Size(89, 23);
             this.nudID.TabIndex = 2;
             // 
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(31, 86);
+            this.lblID.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblID.Location = new System.Drawing.Point(37, 95);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(18, 13);
+            this.lblID.Size = new System.Drawing.Size(22, 17);
             this.lblID.TabIndex = 2;
             this.lblID.Text = "ID";
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.Location = new System.Drawing.Point(22, 48);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(44, 13);
+            this.lblNombre.Size = new System.Drawing.Size(58, 17);
             this.lblNombre.TabIndex = 1;
             this.lblNombre.Text = "Nombre";
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(72, 45);
+            this.txtNombre.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Location = new System.Drawing.Point(86, 48);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(89, 20);
+            this.txtNombre.Size = new System.Drawing.Size(89, 23);
             this.txtNombre.TabIndex = 0;
             this.txtNombre.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 

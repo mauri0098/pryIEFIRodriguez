@@ -131,5 +131,17 @@
   <ItemGroup>
     <None Include="Resources\png-transparent-note-and-pencil-illustration-computer-icons-icon-design-symbol-registration-miscellaneous-angle-text-thumbnail.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-note-taking-reading-writing-taking-miscellaneous-angle-text-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\252324 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\252324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4021693.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

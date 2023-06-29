@@ -63,6 +63,36 @@ namespace pryIEFIRodriguez.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _252324 {
+            get {
+                object obj = ResourceManager.GetObject("252324", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _252324__1_ {
+            get {
+                object obj = ResourceManager.GetObject("252324 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4021693 {
+            get {
+                object obj = ResourceManager.GetObject("4021693", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mejorar_la_fuerza_de_ventas_en_tu_negocio {
             get {
                 object obj = ResourceManager.GetObject("mejorar-la-fuerza-de-ventas-en-tu-negocio", resourceCulture);
@@ -77,6 +107,17 @@ namespace pryIEFIRodriguez.Properties {
             get {
                 object obj = ResourceManager.GetObject("png-transparent-note-and-pencil-illustration-computer-icons-icon-design-symbol-re" +
                         "gistration-miscellaneous-angle-text-thumbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_note_taking_reading_writing_taking_miscellaneous_angle_text_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-note-taking-reading-writing-taking-miscellaneous-angle-text-thumb" +
+                        "nail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
