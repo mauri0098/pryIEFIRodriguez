@@ -19,9 +19,14 @@ namespace pryIEFIRodriguez
 
         private void cmdInicio_Click(object sender, EventArgs e)
         {
-            frmPrincipal frmPrincipal = new frmPrincipal();
+            frmLogin frmLogin = new frmLogin();
             this.Hide();
-            frmPrincipal.ShowDialog();
+            frmLogin.ShowDialog();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

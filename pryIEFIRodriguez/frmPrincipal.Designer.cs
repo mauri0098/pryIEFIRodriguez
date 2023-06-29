@@ -30,6 +30,7 @@
         {
             this.cmdVentas = new System.Windows.Forms.Button();
             this.cmdProducto = new System.Windows.Forms.Button();
+            this.lblRegistrar = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cmdVentas
@@ -52,16 +53,27 @@
             this.cmdProducto.UseVisualStyleBackColor = true;
             this.cmdProducto.Click += new System.EventHandler(this.cmdProducto_Click);
             // 
+            // lblRegistrar
+            // 
+            this.lblRegistrar.AutoSize = true;
+            this.lblRegistrar.Location = new System.Drawing.Point(91, 48);
+            this.lblRegistrar.Name = "lblRegistrar";
+            this.lblRegistrar.Size = new System.Drawing.Size(49, 13);
+            this.lblRegistrar.TabIndex = 2;
+            this.lblRegistrar.Text = "Registrar";
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 293);
+            this.Controls.Add(this.lblRegistrar);
             this.Controls.Add(this.cmdProducto);
             this.Controls.Add(this.cmdVentas);
             this.Name = "frmPrincipal";
             this.Text = "frmPrincipal";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -69,5 +81,6 @@
 
         private System.Windows.Forms.Button cmdVentas;
         private System.Windows.Forms.Button cmdProducto;
+        private System.Windows.Forms.Label lblRegistrar;
     }
 }
