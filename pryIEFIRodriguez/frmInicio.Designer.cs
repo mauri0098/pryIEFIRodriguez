@@ -52,7 +52,7 @@
             // 
             this.lblProductos.AutoSize = true;
             this.lblProductos.BackColor = System.Drawing.Color.Transparent;
-            this.lblProductos.Font = new System.Drawing.Font("Calibri", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProductos.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProductos.ForeColor = System.Drawing.Color.Black;
             this.lblProductos.Location = new System.Drawing.Point(234, 22);
             this.lblProductos.Name = "lblProductos";
@@ -65,7 +65,7 @@
             // 
             this.lblVentas.AutoSize = true;
             this.lblVentas.BackColor = System.Drawing.Color.Transparent;
-            this.lblVentas.Font = new System.Drawing.Font("Calibri", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVentas.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVentas.ForeColor = System.Drawing.Color.Black;
             this.lblVentas.Location = new System.Drawing.Point(258, 101);
             this.lblVentas.Name = "lblVentas";

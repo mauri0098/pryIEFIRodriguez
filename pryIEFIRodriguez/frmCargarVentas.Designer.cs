@@ -239,9 +239,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(496, 364);
+            this.ClientSize = new System.Drawing.Size(490, 364);
             this.Controls.Add(this.tabVentas);
             this.Name = "frmCargarVentas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ventas";
             this.tabVentas.ResumeLayout(false);
             this.tabRegistrar.ResumeLayout(false);

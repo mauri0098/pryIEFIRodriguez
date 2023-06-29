@@ -213,6 +213,7 @@
             this.ClientSize = new System.Drawing.Size(398, 366);
             this.Controls.Add(this.tabProducto);
             this.Name = "frmCargarProducto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Producto";
             this.tabProducto.ResumeLayout(false);
             this.tabRegistrar.ResumeLayout(false);
