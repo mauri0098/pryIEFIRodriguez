@@ -53,7 +53,7 @@
             // 
             this.cmdProducto.BackColor = System.Drawing.Color.Linen;
             this.cmdProducto.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdProducto.Location = new System.Drawing.Point(137, 78);
+            this.cmdProducto.Location = new System.Drawing.Point(140, 78);
             this.cmdProducto.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmdProducto.Name = "cmdProducto";
             this.cmdProducto.Size = new System.Drawing.Size(103, 39);

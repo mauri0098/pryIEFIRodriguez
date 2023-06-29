@@ -120,7 +120,7 @@
             // cmdCancelar
             // 
             this.cmdCancelar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdCancelar.Location = new System.Drawing.Point(129, 240);
+            this.cmdCancelar.Location = new System.Drawing.Point(134, 240);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(76, 27);
             this.cmdCancelar.TabIndex = 4;
