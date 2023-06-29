@@ -114,7 +114,7 @@
             // 
             // cmdCancelar
             // 
-            this.cmdCancelar.Location = new System.Drawing.Point(130, 240);
+            this.cmdCancelar.Location = new System.Drawing.Point(129, 240);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(76, 23);
             this.cmdCancelar.TabIndex = 4;

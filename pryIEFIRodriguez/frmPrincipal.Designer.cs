@@ -45,7 +45,7 @@
             // 
             // cmdProducto
             // 
-            this.cmdProducto.Location = new System.Drawing.Point(205, 133);
+            this.cmdProducto.Location = new System.Drawing.Point(213, 133);
             this.cmdProducto.Name = "cmdProducto";
             this.cmdProducto.Size = new System.Drawing.Size(100, 59);
             this.cmdProducto.TabIndex = 1;
