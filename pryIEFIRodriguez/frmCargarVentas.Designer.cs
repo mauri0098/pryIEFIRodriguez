@@ -37,7 +37,6 @@
             this.cmdRegistar = new System.Windows.Forms.Button();
             this.lblFecha = new System.Windows.Forms.Label();
             this.dptFecha = new System.Windows.Forms.DateTimePicker();
-            this.nudID = new System.Windows.Forms.NumericUpDown();
             this.lblID = new System.Windows.Forms.Label();
             this.lblProducto = new System.Windows.Forms.Label();
             this.txtProducto = new System.Windows.Forms.TextBox();
@@ -47,11 +46,14 @@
             this.dtgvID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lstVentasMayores = new System.Windows.Forms.ComboBox();
+            this.cmdConsultar = new System.Windows.Forms.Button();
+            this.lblVentasMayoresa10 = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.tabVentas.SuspendLayout();
             this.tabRegistrar.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudID)).BeginInit();
             this.tabConsultar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarVentas)).BeginInit();
             this.SuspendLayout();
@@ -79,13 +81,13 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtID);
             this.groupBox1.Controls.Add(this.nudCantidad);
             this.groupBox1.Controls.Add(this.lblCantidad);
             this.groupBox1.Controls.Add(this.cmdCancelar);
             this.groupBox1.Controls.Add(this.cmdRegistar);
             this.groupBox1.Controls.Add(this.lblFecha);
             this.groupBox1.Controls.Add(this.dptFecha);
-            this.groupBox1.Controls.Add(this.nudID);
             this.groupBox1.Controls.Add(this.lblID);
             this.groupBox1.Controls.Add(this.lblProducto);
             this.groupBox1.Controls.Add(this.txtProducto);
@@ -155,14 +157,6 @@
             this.dptFecha.Size = new System.Drawing.Size(188, 23);
             this.dptFecha.TabIndex = 2;
             // 
-            // nudID
-            // 
-            this.nudID.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudID.Location = new System.Drawing.Point(96, 92);
-            this.nudID.Name = "nudID";
-            this.nudID.Size = new System.Drawing.Size(89, 23);
-            this.nudID.TabIndex = 2;
-            // 
             // lblID
             // 
             this.lblID.AutoSize = true;
@@ -193,6 +187,9 @@
             // 
             // tabConsultar
             // 
+            this.tabConsultar.Controls.Add(this.lblVentasMayoresa10);
+            this.tabConsultar.Controls.Add(this.cmdConsultar);
+            this.tabConsultar.Controls.Add(this.lstVentasMayores);
             this.tabConsultar.Controls.Add(this.dtgvConsultarVentas);
             this.tabConsultar.Location = new System.Drawing.Point(4, 22);
             this.tabConsultar.Name = "tabConsultar";
@@ -235,6 +232,41 @@
             this.dtgvFecha.HeaderText = "Fecha";
             this.dtgvFecha.Name = "dtgvFecha";
             // 
+            // lstVentasMayores
+            // 
+            this.lstVentasMayores.FormattingEnabled = true;
+            this.lstVentasMayores.Location = new System.Drawing.Point(92, 251);
+            this.lstVentasMayores.Name = "lstVentasMayores";
+            this.lstVentasMayores.Size = new System.Drawing.Size(121, 21);
+            this.lstVentasMayores.TabIndex = 2;
+            // 
+            // cmdConsultar
+            // 
+            this.cmdConsultar.Location = new System.Drawing.Point(11, 249);
+            this.cmdConsultar.Name = "cmdConsultar";
+            this.cmdConsultar.Size = new System.Drawing.Size(75, 23);
+            this.cmdConsultar.TabIndex = 3;
+            this.cmdConsultar.Text = "Consultar";
+            this.cmdConsultar.UseVisualStyleBackColor = true;
+            this.cmdConsultar.Click += new System.EventHandler(this.cmdConsultar_Click);
+            // 
+            // lblVentasMayoresa10
+            // 
+            this.lblVentasMayoresa10.AutoSize = true;
+            this.lblVentasMayoresa10.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVentasMayoresa10.Location = new System.Drawing.Point(8, 231);
+            this.lblVentasMayoresa10.Name = "lblVentasMayoresa10";
+            this.lblVentasMayoresa10.Size = new System.Drawing.Size(130, 15);
+            this.lblVentasMayoresa10.TabIndex = 4;
+            this.lblVentasMayoresa10.Text = "Ventas Mayores a 10";
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(96, 88);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(89, 27);
+            this.txtID.TabIndex = 7;
+            // 
             // frmCargarVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,8 +281,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudID)).EndInit();
             this.tabConsultar.ResumeLayout(false);
+            this.tabConsultar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarVentas)).EndInit();
             this.ResumeLayout(false);
 
@@ -268,7 +300,6 @@
         private System.Windows.Forms.Button cmdRegistar;
         private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.DateTimePicker dptFecha;
-        private System.Windows.Forms.NumericUpDown nudID;
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.Label lblProducto;
         private System.Windows.Forms.TextBox txtProducto;
@@ -277,5 +308,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvID;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvCantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvFecha;
+        private System.Windows.Forms.Button cmdConsultar;
+        private System.Windows.Forms.ComboBox lstVentasMayores;
+        private System.Windows.Forms.Label lblVentasMayoresa10;
+        private System.Windows.Forms.TextBox txtID;
     }
 }

@@ -35,7 +35,6 @@
             this.cmdRegistrar = new System.Windows.Forms.Button();
             this.lblFecha = new System.Windows.Forms.Label();
             this.dptFecha = new System.Windows.Forms.DateTimePicker();
-            this.nudID = new System.Windows.Forms.NumericUpDown();
             this.lblID = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -44,10 +43,10 @@
             this.dtgvNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.tabProducto.SuspendLayout();
             this.tabRegistrar.SuspendLayout();
             this.mrcProducto.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudID)).BeginInit();
             this.tabConsultar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarProducto)).BeginInit();
             this.SuspendLayout();
@@ -75,11 +74,11 @@
             // 
             // mrcProducto
             // 
+            this.mrcProducto.Controls.Add(this.txtID);
             this.mrcProducto.Controls.Add(this.cmdCancelar);
             this.mrcProducto.Controls.Add(this.cmdRegistrar);
             this.mrcProducto.Controls.Add(this.lblFecha);
             this.mrcProducto.Controls.Add(this.dptFecha);
-            this.mrcProducto.Controls.Add(this.nudID);
             this.mrcProducto.Controls.Add(this.lblID);
             this.mrcProducto.Controls.Add(this.lblNombre);
             this.mrcProducto.Controls.Add(this.txtNombre);
@@ -130,14 +129,6 @@
             this.dptFecha.Name = "dptFecha";
             this.dptFecha.Size = new System.Drawing.Size(219, 22);
             this.dptFecha.TabIndex = 2;
-            // 
-            // nudID
-            // 
-            this.nudID.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudID.Location = new System.Drawing.Point(86, 89);
-            this.nudID.Name = "nudID";
-            this.nudID.Size = new System.Drawing.Size(89, 23);
-            this.nudID.TabIndex = 2;
             // 
             // lblID
             // 
@@ -206,6 +197,13 @@
             this.dtgvFecha.HeaderText = "Fecha";
             this.dtgvFecha.Name = "dtgvFecha";
             // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(86, 85);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(89, 27);
+            this.txtID.TabIndex = 5;
+            // 
             // frmCargarProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -219,7 +217,6 @@
             this.tabRegistrar.ResumeLayout(false);
             this.mrcProducto.ResumeLayout(false);
             this.mrcProducto.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudID)).EndInit();
             this.tabConsultar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarProducto)).EndInit();
             this.ResumeLayout(false);
@@ -237,12 +234,12 @@
         private System.Windows.Forms.Button cmdRegistrar;
         private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.DateTimePicker dptFecha;
-        private System.Windows.Forms.NumericUpDown nudID;
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.DataGridView dtgvConsultarProducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvNombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvID;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvFecha;
+        private System.Windows.Forms.TextBox txtID;
     }
 }

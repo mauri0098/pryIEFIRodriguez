@@ -37,14 +37,14 @@ namespace pryIEFIRodriguez
             {
                 if (txtNombre.Text !="")
                 {
-                    if (nudID.Value >0)
+                    if (txtID.Text != "")
                     {
-                        varID = nudID.ToString();
+                        varID = txtID.ToString();
                     }
                     else
                     {
                         MessageBox.Show("Falta Completar el ID", "Cargar ID", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        txtNombre.Focus();
+                        txtID.Focus();
                     }
                     
                     MessageBox.Show("vamos a Registrar");
@@ -54,15 +54,15 @@ namespace pryIEFIRodriguez
                     int n = dtgvConsultarProducto.Rows.Add();
 
                     dtgvConsultarProducto.Rows[n].Cells[0].Value = txtNombre.Text;
-                    dtgvConsultarProducto.Rows[n].Cells[1].Value = nudID.Text;
+                    dtgvConsultarProducto.Rows[n].Cells[1].Value = txtID.Text;
                     dtgvConsultarProducto.Rows[n].Cells[2].Value = dptFecha.Text;
                     
                     MatrizProductos[n, 0] = txtNombre.Text;
-                    MatrizProductos[n, 1] = nudID.Text;
+                    MatrizProductos[n, 1] = txtID.Text;
                     MatrizProductos[n, 2] = dptFecha.Text;
                     
                     txtNombre.Text = "";
-                    nudID.Text = "";
+                    txtID.Text = "";
 
 
                 }

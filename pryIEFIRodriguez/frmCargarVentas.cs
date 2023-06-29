@@ -38,18 +38,18 @@ namespace pryIEFIRodriguez
                     int n = dtgvConsultarVentas.Rows.Add();
 
                     dtgvConsultarVentas.Rows[n].Cells[0].Value = txtProducto.Text;
-                    dtgvConsultarVentas.Rows[n].Cells[1].Value = nudID.Text;
+                    dtgvConsultarVentas.Rows[n].Cells[1].Value = txtID.Text;
                     dtgvConsultarVentas.Rows[n].Cells[2].Value = nudCantidad.Text;
                     dtgvConsultarVentas.Rows[n].Cells[3].Value = dptFecha.Text;
                     
                     //Registro de matriz
                     MatrizVentas[n,0] = txtProducto.Text;
-                    MatrizVentas[n,1] = nudID.Text;
+                    MatrizVentas[n,1] = txtID.Text;
                     MatrizVentas[n,2] = nudCantidad.Text;
                     MatrizVentas[n,3] = dptFecha.Text;
 
                     txtProducto.Text = "";
-                    nudID.Text = "";
+                    txtID.Text = "";
                     nudCantidad.Text = "";
 
                 }
@@ -68,6 +68,17 @@ namespace pryIEFIRodriguez
 
 
 
+        }
+
+        private void cmdConsultar_Click(object sender, EventArgs e)
+        {
+            for (int filas = 0; filas < MatrizVentas.GetLength(0); filas++)
+            {
+                if (Convert.ToInt32(MatrizVentas[filas, 2])>=10)
+                {
+                    lstVentasMayores.Items.Add(MatrizVentas[filas, 2]);
+                }
+            }
         }
     }
 }
