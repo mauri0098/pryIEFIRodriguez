@@ -30,11 +30,31 @@ namespace pryIEFIRodriguez
                 }
 
             }
+            else
+            {
+                if (varoperacion == "Ventas")
+                {
+                    this.Text = "Listados de Ventas";
+                    this.varmatriz = varmatriz;
+                    for (int f = 0; f < varmatriz.GetLength(0); f++)
+                    {
+                        lstProductos.Items.Add("Ventas" + (f, +1).ToString());
+                        lstProductos.Items.Add(" Productos " + varmatriz[f, 0] + " ID:" + varmatriz[f, 1] + " Cantidad: " + varmatriz[f, 2] + " Fecha: " + varmatriz[f, 3]);
+                    }
+
+                }
+
+            }
 
             
         }
 
         private void frmListar_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lstVentas_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

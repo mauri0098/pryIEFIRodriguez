@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCargarVentas));
             this.tabVentas = new System.Windows.Forms.TabControl();
             this.tabRegistrar = new System.Windows.Forms.TabPage();
             this.mrcVentas = new System.Windows.Forms.GroupBox();
             this.cmdMostar = new System.Windows.Forms.Button();
             this.txtID = new System.Windows.Forms.TextBox();
-            this.nudCantidad = new System.Windows.Forms.NumericUpDown();
             this.lblCantidad = new System.Windows.Forms.Label();
             this.cmdCancelar = new System.Windows.Forms.Button();
             this.cmdRegistar = new System.Windows.Forms.Button();
@@ -51,12 +51,13 @@
             this.dtgvID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nudCantidad = new System.Windows.Forms.NumericUpDown();
             this.tabVentas.SuspendLayout();
             this.tabRegistrar.SuspendLayout();
             this.mrcVentas.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
             this.tabConsultar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarVentas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
             this.SuspendLayout();
             // 
             // tabVentas
@@ -82,9 +83,9 @@
             // 
             // mrcVentas
             // 
+            this.mrcVentas.Controls.Add(this.nudCantidad);
             this.mrcVentas.Controls.Add(this.cmdMostar);
             this.mrcVentas.Controls.Add(this.txtID);
-            this.mrcVentas.Controls.Add(this.nudCantidad);
             this.mrcVentas.Controls.Add(this.lblCantidad);
             this.mrcVentas.Controls.Add(this.cmdCancelar);
             this.mrcVentas.Controls.Add(this.cmdRegistar);
@@ -110,6 +111,7 @@
             this.cmdMostar.TabIndex = 8;
             this.cmdMostar.Text = "Mostar";
             this.cmdMostar.UseVisualStyleBackColor = true;
+            this.cmdMostar.Click += new System.EventHandler(this.cmdMostar_Click);
             // 
             // txtID
             // 
@@ -118,14 +120,6 @@
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(89, 23);
             this.txtID.TabIndex = 7;
-            // 
-            // nudCantidad
-            // 
-            this.nudCantidad.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudCantidad.Location = new System.Drawing.Point(96, 129);
-            this.nudCantidad.Name = "nudCantidad";
-            this.nudCantidad.Size = new System.Drawing.Size(89, 23);
-            this.nudCantidad.TabIndex = 6;
             // 
             // lblCantidad
             // 
@@ -281,12 +275,21 @@
             this.dtgvFecha.HeaderText = "Fecha";
             this.dtgvFecha.Name = "dtgvFecha";
             // 
+            // nudCantidad
+            // 
+            this.nudCantidad.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudCantidad.Location = new System.Drawing.Point(96, 131);
+            this.nudCantidad.Name = "nudCantidad";
+            this.nudCantidad.Size = new System.Drawing.Size(89, 23);
+            this.nudCantidad.TabIndex = 4;
+            // 
             // frmCargarVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(490, 364);
             this.Controls.Add(this.tabVentas);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCargarVentas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ventas";
@@ -294,10 +297,10 @@
             this.tabRegistrar.ResumeLayout(false);
             this.mrcVentas.ResumeLayout(false);
             this.mrcVentas.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
             this.tabConsultar.ResumeLayout(false);
             this.tabConsultar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarVentas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -308,7 +311,6 @@
         private System.Windows.Forms.TabPage tabRegistrar;
         private System.Windows.Forms.TabPage tabConsultar;
         private System.Windows.Forms.GroupBox mrcVentas;
-        private System.Windows.Forms.NumericUpDown nudCantidad;
         private System.Windows.Forms.Label lblCantidad;
         private System.Windows.Forms.Button cmdCancelar;
         private System.Windows.Forms.Button cmdRegistar;
@@ -327,5 +329,6 @@
         private System.Windows.Forms.Label lblVentasMayoresa10;
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Button cmdMostar;
+        private System.Windows.Forms.NumericUpDown nudCantidad;
     }
 }
