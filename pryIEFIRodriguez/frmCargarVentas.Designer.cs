@@ -145,7 +145,7 @@
             // cmdRegistar
             // 
             this.cmdRegistar.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdRegistar.Location = new System.Drawing.Point(3, 240);
+            this.cmdRegistar.Location = new System.Drawing.Point(1, 240);
             this.cmdRegistar.Name = "cmdRegistar";
             this.cmdRegistar.Size = new System.Drawing.Size(75, 27);
             this.cmdRegistar.TabIndex = 1;
