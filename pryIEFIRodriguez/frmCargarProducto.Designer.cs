@@ -31,6 +31,7 @@
             this.tabProducto = new System.Windows.Forms.TabControl();
             this.tabRegistrar = new System.Windows.Forms.TabPage();
             this.mrcProducto = new System.Windows.Forms.GroupBox();
+            this.cmdMostar = new System.Windows.Forms.Button();
             this.txtID = new System.Windows.Forms.TextBox();
             this.cmdCancelar = new System.Windows.Forms.Button();
             this.cmdRegistrar = new System.Windows.Forms.Button();
@@ -44,7 +45,6 @@
             this.dtgvNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmdMostar = new System.Windows.Forms.Button();
             this.tabProducto.SuspendLayout();
             this.tabRegistrar.SuspendLayout();
             this.mrcProducto.SuspendLayout();
@@ -91,6 +91,17 @@
             this.mrcProducto.TabIndex = 1;
             this.mrcProducto.TabStop = false;
             this.mrcProducto.Text = "Producto";
+            // 
+            // cmdMostar
+            // 
+            this.cmdMostar.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdMostar.Location = new System.Drawing.Point(85, 206);
+            this.cmdMostar.Name = "cmdMostar";
+            this.cmdMostar.Size = new System.Drawing.Size(71, 27);
+            this.cmdMostar.TabIndex = 6;
+            this.cmdMostar.Text = "Mostar";
+            this.cmdMostar.UseVisualStyleBackColor = true;
+            this.cmdMostar.Click += new System.EventHandler(this.cmdMostar_Click);
             // 
             // txtID
             // 
@@ -206,16 +217,6 @@
             // 
             this.dtgvFecha.HeaderText = "Fecha";
             this.dtgvFecha.Name = "dtgvFecha";
-            // 
-            // cmdMostar
-            // 
-            this.cmdMostar.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdMostar.Location = new System.Drawing.Point(85, 206);
-            this.cmdMostar.Name = "cmdMostar";
-            this.cmdMostar.Size = new System.Drawing.Size(71, 27);
-            this.cmdMostar.TabIndex = 6;
-            this.cmdMostar.Text = "Mostar";
-            this.cmdMostar.UseVisualStyleBackColor = true;
             // 
             // frmCargarProducto
             // 

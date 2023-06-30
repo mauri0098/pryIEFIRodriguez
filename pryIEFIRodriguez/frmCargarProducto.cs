@@ -87,5 +87,11 @@ namespace pryIEFIRodriguez
         {
 
         }
+
+        private void cmdMostar_Click(object sender, EventArgs e)
+        {
+            frmListar frmListar = new frmListar("productos", MatrizProductos);
+            frmListar.ShowDialog();
+        }
     }
 }

@@ -12,9 +12,33 @@ namespace pryIEFIRodriguez
 {
     public partial class frmListar : Form
     {
-        public frmListar()
+        string[,] varmatriz;
+        string varoperacion;
+
+        public frmListar(string varoperacion, string[,]varmatriz)
         {
             InitializeComponent();
+
+            if (varoperacion=="Productos")
+            {
+                this.Text = "Listados de Productos";
+               
+                
+                for (int f = 0; f < varmatriz.GetLength(0); f++)
+                {
+                    lstProductos.Items.Add("Producto" + (f, +1).ToString());
+                    lstProductos.Items.Add(" ID: " + varmatriz[f, 0] + " Nombre" + varmatriz[f, 1] + " Fecha: " + varmatriz[f, 2]);
+                }
+
+            }
+            
+            
+
+        }
+
+        private void frmListar_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
