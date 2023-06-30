@@ -25,8 +25,12 @@ namespace pryIEFIRodriguez
                 this.varmatriz =varmatriz;
                 for (int f = 0; f < varmatriz.GetLength(0); f++)
                 {
-                    lstProductos.Items.Add("Productos" + (f ,+1).ToString());
-                    lstProductos.Items.Add(" Nombre: " + varmatriz[f,0] + " ID:"+  varmatriz[f,1] + " Fecha: " +  varmatriz[f,2]);
+                    if (varmatriz[f, 0]!=null )
+                    {
+
+                        lstProductos.Items.Add("Productos" + (f ,+1).ToString());
+                        lstProductos.Items.Add(" Nombre: " + varmatriz[f,0] + " ID:"+  varmatriz[f,1] + " Fecha: " +  varmatriz[f,2]);
+                    }
                 }
 
             }
@@ -38,8 +42,15 @@ namespace pryIEFIRodriguez
                     this.varmatriz = varmatriz;
                     for (int f = 0; f < varmatriz.GetLength(0); f++)
                     {
-                        lstProductos.Items.Add("Ventas" + (f, +1).ToString());
-                        lstProductos.Items.Add(" Productos " + varmatriz[f, 0] + " ID:" + varmatriz[f, 1] + " Cantidad: " + varmatriz[f, 2] + " Fecha: " + varmatriz[f, 3]);
+                        if (varmatriz[f, 0] != null)
+                        {
+                            lstProductos.Items.Add("Ventas" + (f, +1).ToString());
+                            lstProductos.Items.Add(" Productos " + varmatriz[f, 0] + " ID:" + varmatriz[f, 1] + " Cantidad: " + varmatriz[f, 2] + " Fecha: " + varmatriz[f, 3]);
+                        }
+                       
+
+                        
+
                     }
 
                 }
