@@ -40,13 +40,13 @@ namespace pryIEFIRodriguez
                     dtgvConsultarVentas.Rows[n].Cells[0].Value = txtProducto.Text;
                     dtgvConsultarVentas.Rows[n].Cells[1].Value = txtID.Text;
                     dtgvConsultarVentas.Rows[n].Cells[2].Value = nudCantidad.Text;
-                    dtgvConsultarVentas.Rows[n].Cells[3].Value = dptFecha.Text;
+                    dtgvConsultarVentas.Rows[n].Cells[3].Value = dptFecha.Value.ToString();
                     
                     //Registro de matriz
                     MatrizVentas[n,0] = txtProducto.Text;
                     MatrizVentas[n,1] = txtID.Text;
                     MatrizVentas[n,2] = nudCantidad.Text;
-                    MatrizVentas[n,3] = dptFecha.Text;
+                    MatrizVentas[n, 3] = dptFecha.Value.ToString();
 
                     txtProducto.Text = "";
                     txtID.Text = "";
@@ -90,7 +90,7 @@ namespace pryIEFIRodriguez
 
         private void cmdMostar_Click(object sender, EventArgs e)
         {
-            frmListar frmListar = new frmListar("Productos", MatrizVentas);
+            frmListar frmListar = new frmListar("Ventas", MatrizVentas);
             frmListar.ShowDialog();
         }
     }

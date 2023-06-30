@@ -44,8 +44,8 @@ namespace pryIEFIRodriguez
                     {
                         if (varmatriz[f, 0] != null)
                         {
-                            lstProductos.Items.Add("Ventas" + (f, +1).ToString());
-                            lstProductos.Items.Add(" Productos " + varmatriz[f, 0] + " ID:" + varmatriz[f, 1] + " Cantidad: " + varmatriz[f, 2] + " Fecha: " + varmatriz[f, 3]);
+                            lstVentas.Items.Add("Ventas" + (f +1).ToString());
+                            lstVentas.Items.Add(" Productos " + varmatriz[f, 0] + " ID:" + varmatriz[f, 1] + " Cantidad: " + varmatriz[f, 2] + " Fecha: " + varmatriz[f, 3]);
                         }
                        
 
