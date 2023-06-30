@@ -85,12 +85,14 @@ namespace pryIEFIRodriguez
 
         private void cmdCancelar_Click(object sender, EventArgs e)
         {
-
+            frmPrincipal frmPrincipal = new frmPrincipal();
+            this.Hide();
+            frmPrincipal.ShowDialog();
         }
 
         private void cmdMostar_Click(object sender, EventArgs e)
         {
-            frmListar frmListar = new frmListar("productos", MatrizProductos);
+            frmListar frmListar = new frmListar("Productos", MatrizProductos);
             frmListar.ShowDialog();
         }
     }

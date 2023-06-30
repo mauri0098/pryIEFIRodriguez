@@ -47,6 +47,7 @@
             resources.ApplyResources(this.cmdCancelar, "cmdCancelar");
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
+            this.cmdCancelar.Click += new System.EventHandler(this.cmdCancelar_Click);
             // 
             // cmdAcetar
             // 

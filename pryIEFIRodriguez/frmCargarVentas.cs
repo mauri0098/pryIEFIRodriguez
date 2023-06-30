@@ -80,6 +80,13 @@ namespace pryIEFIRodriguez
                 }
             }
         }
+
+        private void cmdCancelar_Click(object sender, EventArgs e)
+        {
+            frmPrincipal frmPrincipal = new frmPrincipal();
+            this.Hide();
+            frmPrincipal.ShowDialog();
+        }
     }
 }
         

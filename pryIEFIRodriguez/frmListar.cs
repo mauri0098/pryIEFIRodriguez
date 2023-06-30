@@ -22,10 +22,11 @@ namespace pryIEFIRodriguez
             if (varoperacion=="Productos")
             {
                 this.Text = "Listados de Productos";
+                this.varmatriz =varmatriz;
                 for (int f = 0; f < varmatriz.GetLength(0); f++)
                 {
-                    lstProductos.Items.Add("Productos" + (f, +1).ToString());
-                    lstProductos.Items.Add(" Nombre: " + varmatriz[f,0] + " ID:"+varmatriz[f,1] + " Fecha: " + varmatriz[f,2]);
+                    lstProductos.Items.Add("Productos" + (f ,+1).ToString());
+                    lstProductos.Items.Add(" Nombre: " + varmatriz[f,0] + " ID:"+  varmatriz[f,1] + " Fecha: " +  varmatriz[f,2]);
                 }
 
             }
