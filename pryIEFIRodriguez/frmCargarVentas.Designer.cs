@@ -32,6 +32,7 @@
             this.tabVentas = new System.Windows.Forms.TabControl();
             this.tabRegistrar = new System.Windows.Forms.TabPage();
             this.mrcVentas = new System.Windows.Forms.GroupBox();
+            this.nudCantidad = new System.Windows.Forms.NumericUpDown();
             this.cmdMostar = new System.Windows.Forms.Button();
             this.txtID = new System.Windows.Forms.TextBox();
             this.lblCantidad = new System.Windows.Forms.Label();
@@ -51,13 +52,12 @@
             this.dtgvID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nudCantidad = new System.Windows.Forms.NumericUpDown();
             this.tabVentas.SuspendLayout();
             this.tabRegistrar.SuspendLayout();
             this.mrcVentas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
             this.tabConsultar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarVentas)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
             this.SuspendLayout();
             // 
             // tabVentas
@@ -101,6 +101,14 @@
             this.mrcVentas.TabIndex = 3;
             this.mrcVentas.TabStop = false;
             this.mrcVentas.Text = "Ventas";
+            // 
+            // nudCantidad
+            // 
+            this.nudCantidad.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudCantidad.Location = new System.Drawing.Point(96, 131);
+            this.nudCantidad.Name = "nudCantidad";
+            this.nudCantidad.Size = new System.Drawing.Size(89, 23);
+            this.nudCantidad.TabIndex = 4;
             // 
             // cmdMostar
             // 
@@ -275,14 +283,6 @@
             this.dtgvFecha.HeaderText = "Fecha";
             this.dtgvFecha.Name = "dtgvFecha";
             // 
-            // nudCantidad
-            // 
-            this.nudCantidad.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudCantidad.Location = new System.Drawing.Point(96, 131);
-            this.nudCantidad.Name = "nudCantidad";
-            this.nudCantidad.Size = new System.Drawing.Size(89, 23);
-            this.nudCantidad.TabIndex = 4;
-            // 
             // frmCargarVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -297,10 +297,10 @@
             this.tabRegistrar.ResumeLayout(false);
             this.mrcVentas.ResumeLayout(false);
             this.mrcVentas.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
             this.tabConsultar.ResumeLayout(false);
             this.tabConsultar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvConsultarVentas)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
             this.ResumeLayout(false);
 
         }
