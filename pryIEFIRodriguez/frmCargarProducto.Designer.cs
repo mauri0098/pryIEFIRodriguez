@@ -105,9 +105,10 @@
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(86, 85);
+            this.txtID.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtID.Location = new System.Drawing.Point(86, 88);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(89, 27);
+            this.txtID.Size = new System.Drawing.Size(89, 23);
             this.txtID.TabIndex = 5;
             // 
             // cmdCancelar
