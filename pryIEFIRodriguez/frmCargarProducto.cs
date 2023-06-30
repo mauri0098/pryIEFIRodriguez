@@ -82,5 +82,10 @@ namespace pryIEFIRodriguez
 
             
         }
+
+        private void cmdCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

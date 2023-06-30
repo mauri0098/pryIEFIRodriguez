@@ -121,6 +121,9 @@
   <data name="txtContraseña.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 9.75pt</value>
   </data>
+  <data name="txtContraseña.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 76</value>
+  </data>
   <data name="txtContraseña.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 23</value>
   </data>
@@ -134,10 +137,10 @@
     <value>102, 23</value>
   </data>
   <data name="lblContraseña.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 73</value>
+    <value>33, 79</value>
   </data>
   <data name="lblUsuario.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 30</value>
+    <value>33, 31</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>279, 166</value>

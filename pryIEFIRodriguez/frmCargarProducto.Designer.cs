@@ -31,6 +31,7 @@
             this.tabProducto = new System.Windows.Forms.TabControl();
             this.tabRegistrar = new System.Windows.Forms.TabPage();
             this.mrcProducto = new System.Windows.Forms.GroupBox();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.cmdCancelar = new System.Windows.Forms.Button();
             this.cmdRegistrar = new System.Windows.Forms.Button();
             this.lblFecha = new System.Windows.Forms.Label();
@@ -43,7 +44,7 @@
             this.dtgvNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtID = new System.Windows.Forms.TextBox();
+            this.cmdMostar = new System.Windows.Forms.Button();
             this.tabProducto.SuspendLayout();
             this.tabRegistrar.SuspendLayout();
             this.mrcProducto.SuspendLayout();
@@ -74,6 +75,7 @@
             // 
             // mrcProducto
             // 
+            this.mrcProducto.Controls.Add(this.cmdMostar);
             this.mrcProducto.Controls.Add(this.txtID);
             this.mrcProducto.Controls.Add(this.cmdCancelar);
             this.mrcProducto.Controls.Add(this.cmdRegistrar);
@@ -90,20 +92,28 @@
             this.mrcProducto.TabStop = false;
             this.mrcProducto.Text = "Producto";
             // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(86, 85);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(89, 27);
+            this.txtID.TabIndex = 5;
+            // 
             // cmdCancelar
             // 
-            this.cmdCancelar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdCancelar.Location = new System.Drawing.Point(119, 195);
+            this.cmdCancelar.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdCancelar.Location = new System.Drawing.Point(162, 206);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(76, 27);
             this.cmdCancelar.TabIndex = 4;
             this.cmdCancelar.Text = "Cancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
+            this.cmdCancelar.Click += new System.EventHandler(this.cmdCancelar_Click);
             // 
             // cmdRegistrar
             // 
-            this.cmdRegistrar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdRegistrar.Location = new System.Drawing.Point(25, 195);
+            this.cmdRegistrar.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdRegistrar.Location = new System.Drawing.Point(6, 206);
             this.cmdRegistrar.Name = "cmdRegistrar";
             this.cmdRegistrar.Size = new System.Drawing.Size(75, 27);
             this.cmdRegistrar.TabIndex = 1;
@@ -197,12 +207,15 @@
             this.dtgvFecha.HeaderText = "Fecha";
             this.dtgvFecha.Name = "dtgvFecha";
             // 
-            // txtID
+            // cmdMostar
             // 
-            this.txtID.Location = new System.Drawing.Point(86, 85);
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(89, 27);
-            this.txtID.TabIndex = 5;
+            this.cmdMostar.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdMostar.Location = new System.Drawing.Point(85, 206);
+            this.cmdMostar.Name = "cmdMostar";
+            this.cmdMostar.Size = new System.Drawing.Size(71, 27);
+            this.cmdMostar.TabIndex = 6;
+            this.cmdMostar.Text = "Mostar";
+            this.cmdMostar.UseVisualStyleBackColor = true;
             // 
             // frmCargarProducto
             // 
@@ -241,5 +254,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvID;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvFecha;
         private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.Button cmdMostar;
     }
 }
